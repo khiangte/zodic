@@ -1,7 +1,7 @@
 class ChibaiController < ApplicationController
   def index
   end
-  def search
+  def search #search def
   	@found = Word.where('word = ?', params[:key_word])
   	render :json => {:found => @found}
   end
