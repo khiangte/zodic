@@ -1,0 +1,19 @@
+<div id = 'def_div'>
+	<% if @nothing == nil %>
+	<table border =0 align = center>
+		<tr><td>Word </td><td><%= @thumal.word %></td></tr>
+		<tr><td>Part of speech </td><td><%= @thumal.pos %></td></tr>
+		<tr><td>Meaning </td><td><%= @thumal.meaning %></td></tr>
+		<tr><td>Example </td><td><%= @thumal.example %></td></tr>
+	</table>
+	<br><center>
+	<%= link_to "Home", root_path %> |<%= link_to "Change", change_path(:id => @thumal.id) %>| <%= link_to "Add another word", contribute_path %> | <%= link_to "Delete", delete_path(:id => @thumal.id) %>
+	</center>
+	<% else %>
+	<center>
+		<br><br><h2>Word not found</h2>
+		<br><br><br><br>
+		<%= link_to "Home", root_path %> | <%= link_to "Add a new word", contribute_path %>
+	</center>
+	<% end %>
+</div>

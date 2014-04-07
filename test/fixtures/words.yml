@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  word: MyString
+  thumal: MyString
+  pos: MyString
+  meaning: MyString
+  example: MyString
+
+two:
+  word: MyString
+  thumal: MyString
+  pos: MyString
+  meaning: MyString
+  example: MyString

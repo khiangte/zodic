@@ -1,0 +1,12 @@
+<div id ='search_div' class='topp'>
+	<div class ="footer" id="footer" align=center border=1><span id = "helper" onclick="help()"><a href="#"> Help</a> </span><%= link_to 'Add a new word', contribute_path %></div>
+</div>
+<div id = 'def_con'>
+<h1>Contribute a word</h1>
+
+<%= render 'entry' %>
+<hr>
+<%= link_to 'Back', root_path %>
+</div>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<%=  javascript_include_tag 'chibai' %>

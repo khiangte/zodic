@@ -1,0 +1,18 @@
+<div id = 'def_div'>
+<%= form_tag("save", :method => "post") do %>
+  <%= label_tag(:word, "Word:") %><br/>
+  <%= text_field :word, :word, :size => 32, :placeholder => 'search word, ex: sang for sáng/säng/sang' %><br/>
+  <%= label_tag(:thumal, "Thumal:") %><br/>
+  <%= text_field :word, :thumal, :size => 32, :placeholder => 'mizo word with accents/special characters'%><br/>
+  <%= label_tag(:pos, "Part of Speech:") %><br/>
+  <%= text_field :word, :pos, :size => 32 %><br/>
+  <%= label_tag(:meaning, "Meaning:") %><br/>
+  <%= text_field :word, :meaning, :size => 32 %><br/>
+  <%= label_tag(:example, "Example:") %><br/>
+  <%= text_area :word, :example, :cols => 32, :rows =>5, :placeholder => 'Mizo sentence. <i> English sentence.</i>'%><br/>
+  <%= submit_tag("Save") %>
+<% end %>
+<div id = "notice"><%= notice %></div>
+<div id = "alert"><%= alert %></div>
+<%= link_to "View Entry", view_path(:id => params[:id]) if params[:id] %></p>
+</div>
