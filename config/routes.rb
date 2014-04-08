@@ -14,4 +14,6 @@ Zodic::Application.routes.draw do
   match '/view' => 'words#view', :as => :view
   match '/change' => 'words#change', :as => :change
   match '/delete' => 'words#delete', :as => :delete
+
+  match '/signup' => 'users#signup', :as => :signup
 end

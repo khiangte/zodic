@@ -10,14 +10,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140317072728) do
+ActiveRecord::Schema.define(:version => 20140408110624) do
+
+  create_table "users", :force => true do |t|
+    t.string   "full_name"
+    t.string   "email"
+    t.string   "user_name"
+    t.string   "password"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "admin",      :default => false
+  end
 
   create_table "words", :force => true do |t|
-    t.string "word"
-    t.string "thumal"
-    t.string "pos"
-    t.string "meaning"
-    t.string "example"
+    t.string  "word"
+    t.string  "thumal"
+    t.string  "pos"
+    t.string  "meaning"
+    t.string  "example"
+    t.integer "user"
+    t.boolean "active",  :default => false
   end
 
 end
