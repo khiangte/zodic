@@ -1,5 +1,11 @@
 <div id ='search_div' class='topp'>
-	<div class ="footer" id="footer" align=center border=1><span id = "helper" onclick="help()"><a href="#"> Help</a> </span><%= link_to 'Add a new word', contribute_path %></div>
+	<div class ="footer" id="footer" align=center border=1><span id = "helper" onclick="help()"><a href="#"> Help</a> </span>
+		<% if session[:user].nil? %>
+			<%= link_to 'Login', login_path %>
+		<% else %>
+			<%= link_to 'Add a new word', contribute_path %>
+			<%= link_to "Logout, #{session[:user]["user_name"]}", logout_path %>
+		<% end %></div>
 	<h2>Chibai!!</h2>
 	<div id='search-box' class='topp'>
 		<input type = 'text' size =23 id = 'key_word' autofocus onkeyup="searchWord();" onkeydown="key_down(event)" autocomplete="off" placeholder = "Enter a mizo word">
