@@ -23,40 +23,52 @@ class WordsController < ApplicationController
   end
 
   def contribute
+    redirect_to(login_path, :notice => 'Please login first!') if session[:user].nil?
     @thumal = Word.new
     puts "init word"
+      
   end
 
   def save
-    @thumal = Word.new(params[:word])
-    @thumal[:example].gsub! "\r\n","<br>"
-    respond_to do |format|
-      if @thumal.save
-        format.html {redirect_to(contribute_path(:id => @thumal.id), :notice => 'Your contribution has been saved!')}
-      else
-        format.html {redirect_to(contribute_path, :alert => 'You must fill in the fields!')}
+    if session[:user].nil?
+      redirect_to root_path
+    else
+      @thumal = Word.new(params[:word])
+      @thumal[:example].gsub! "\r\n","<br>"
+      respond_to do |format|
+        if @thumal.save
+          format.html {redirect_to(contribute_path(:id => @thumal.id), :notice => 'Your contribution has been saved!')}
+        else
+          format.html {redirect_to(contribute_path, :alert => 'You must fill in the fields!')}
+        end
       end
     end
   end
 
   def view
+    redirect_to(login_path, :notice => 'Please login first!') if session[:user].nil?
     @thumal = Word.find(params[:id])
     rescue ActiveRecord::RecordNotFound
       @nothing = true
   end
 
   def change
+    redirect_to(login_path, :notice => 'Please login first!') if session[:user].nil?
     @word = Word.find(params[:id])
   end
 
   def delete
-    if @thumal = Word.find(params[:id])
-      @thumal.destroy
-    end
+    if session[:user].nil?
+      redirect_to(login_path, :notice => 'Please login first!')
+    else
+      if @thumal = Word.find(params[:id])
+        @thumal.destroy
+      end
 
-    respond_to do |format|
-      format.html { redirect_to(root_path)}
-      format.xml  { head :ok}
+      respond_to do |format|
+        format.html { redirect_to(root_path)}
+        format.xml  { head :ok}
+      end
     end
   end
 end
