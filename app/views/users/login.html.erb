@@ -1,0 +1,20 @@
+<div id = 'def_div'>
+	<div class ="footer" id="footer" align=center>
+		<%= link_to 'Back to Search', root_path %>
+	</div>
+
+	<h2>Login to Zodic</h2>
+<%= form_tag("authenticate", :method => "post") do %>
+  <%= label_tag(:user_name, "username:") %><br/>
+  <%= text_field :user, :user_name, :size => 32 %><br/>
+  
+  <%= label_tag(:password, "Password:") %><br/>
+  <%= password_field :user, :password, :size => 32 %><br/>
+  
+  <%= submit_tag("Login") %>
+<% end %>
+<div id = "notice"><%= notice %></div>
+<div id = "alert"><%= alert %></div>
+<p>Haven't signed up? Please <%= link_to 'Register', signup_path %>, or go <%= link_to 'back to Search', root_path %>.</p>
+<%= link_to "View Entry", view_path(:id => params[:id]) if params[:id] %></p>
+</div>

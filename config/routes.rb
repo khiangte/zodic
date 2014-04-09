@@ -16,4 +16,8 @@ Zodic::Application.routes.draw do
   match '/delete' => 'words#delete', :as => :delete
 
   match '/signup' => 'users#signup', :as => :signup
+  match '/save_user' => 'users#save', :as => :save_user
+  match '/login' => 'users#login', :as => :login
+  match '/authenticate' => 'users#authenticate', :as => :authenticate
+  match '/logout' => 'users#logout', :as => :logout
 end
