@@ -85,4 +85,4 @@ PLATFORMS
 DEPENDENCIES
   mysql2 (~> 0.2.17)
   rails (= 3.0.20)
-  ruby-debug
+  ruby-debug (= 0.10.4)
