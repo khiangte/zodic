@@ -4,15 +4,16 @@
 	</div>
 
 	<h2>Login to Zodic</h2>
-<%= form_tag("authenticate", :method => "post") do %>
-  <%= label_tag(:user_name, "username:") %><br/>
-  <%= text_field :user, :user_name, :size => 32 %><br/>
-  
-  <%= label_tag(:password, "Password:") %><br/>
-  <%= password_field :user, :password, :size => 32 %><br/>
-  
-  <%= submit_tag("Login") %>
-<% end %>
+	<div id = "alert"><%= flash[:error] %></div>
+	<%= form_tag("authenticate", :method => "post") do %>
+	  <%= label_tag(:user_name, "username:") %><br/>
+	  <%= text_field :user, :user_name, :size => 32 %><br/>
+	  
+	  <%= label_tag(:password, "Password:") %><br/>
+	  <%= password_field :user, :password, :size => 32 %><br/>
+	  
+	  <%= submit_tag("Login") %>
+	<% end %>
 <div id = "notice"><%= notice %></div>
 <div id = "alert"><%= alert %></div>
 <p>Haven't signed up? Please <%= link_to 'Register', signup_path %>, or go <%= link_to 'back to Search', root_path %>.</p>

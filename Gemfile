@@ -18,6 +18,10 @@ group :development do
   gem 'ruby-debug', '0.10.4' # the debugger
 end
 
+#for deployment in heroku
+group :production do 
+  gem 'pg'
+end
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 # Bundle the extra gems:

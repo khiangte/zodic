@@ -4,9 +4,13 @@ class UsersController < ApplicationController
 
 	def save
 		@user = User.new(params[:user])
-		@user.save
-		session[:user] = @user
-		redirect_to root_path
+		if @user.save
+			session[:user] = @user
+			redirect_to root_path
+		else
+			flash[:error] = "Unable to register using the given username and email!"
+			#redirect_to signup_path
+		end
 	end
 
 	def login
@@ -19,8 +23,13 @@ class UsersController < ApplicationController
 			session[:user] = @user
 			redirect_to root_path
 		else
+			flash[:error] = "Wrong username or password"
 			redirect_to login_path
 		end
+	rescue
+		flash[:error] = "Wrong username or password"
+		redirect_to login_path
+
 	end
 
 	def logout

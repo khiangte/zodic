@@ -1,5 +1,6 @@
 <div id = 'def_div'>
 <div id = "notice"><%= notice %></div>
+<div id = "alert"><%= flash[:error] %></div>
 <%= form_tag("save_user", :method => "post") do %>
   <%= label_tag(:user_name, "username:") %><br/>
   <%= text_field :user, :user_name, :size => 32 %><br/>
