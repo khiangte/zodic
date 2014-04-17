@@ -6,8 +6,19 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body>
-
+<body background = "/images/bg.png">
+<div id ='search_div' class='topp'>
+	<div class ="footer" id="footer" align=center border=1>
+		<span id = "helper" onclick="help()"><a href="#"> Help</a> </span>
+		<% if contributor_signed_in? %>
+			<%= link_to 'Profile', edit_profile_path %>
+			<%= link_to 'Add a new word', contribute_path %>
+			<%= link_to "Logout", destroy_contributor_session_path %>
+		<% else %>
+			<%= link_to "Login", contributor_session_path %>
+		<% end %>
+	</div>
+</div>
 <%= yield %>
 
 </body>

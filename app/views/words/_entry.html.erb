@@ -10,7 +10,7 @@
   <%= text_field :word, :meaning, :required => true, :size => 32 %><br/>
   <%= label_tag(:example, "Example:") %><br/>
   <%= text_area :word, :example, :cols => 32, :rows =>5, :required => true, :placeholder => 'Mizo sentence. <i> English sentence.</i>'%><br/>
-  <%= text_field :word, :user, :hidden => true, :value => session[:user]["user_name"] %><br/>
+  <%= text_field :word, :user, :hidden => true, :value => current_contributor.email %><br/>
 
   <%= submit_tag("Save") %>
 <% end %>

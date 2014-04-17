@@ -3,13 +3,15 @@ class UsersController < ApplicationController
 	end
 
 	def save
-		@user = User.new(params[:user])
-		if @user.save
-			session[:user] = @user
-			redirect_to root_path
-		else
-			flash[:error] = "Unable to register using the given username and email!"
-			#redirect_to signup_path
+	if @user = User.find_by_email(params[:user]["email"])
+		@user.update_attributes(params[:user])
+			if @user.save
+				session[:user_profile] = @user
+				redirect_to root_path
+			else
+				flash[:error] = "Profile update failed!"
+				redirect_to edit_profile_path
+			end
 		end
 	end
 
@@ -35,5 +37,9 @@ class UsersController < ApplicationController
 	def logout
 		session[:user] = nil
 		redirect_to root_path
+	end
+
+	def edit
+		@user = User.find_by_email(current_contributor.email)
 	end
 end

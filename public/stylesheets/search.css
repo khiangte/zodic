@@ -66,6 +66,7 @@ div.topp {
 
 h1, h2, h3, h4 {
     display: inline;
+    color: #707075;
 }
 
 #footer {
@@ -90,5 +91,61 @@ a {
     text-decoration:none;
     color:#6E6E6E;
 }
+.form-box input{
+    text-transform: lowercase;
+    background-color: #FAFAFA;
+    border-bottom-color: #CCCCCC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    /*height: 40px;*/
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    /*text-align: center;*/
+    border: solid 1px #ccc; 
+}
+.form-box input[type="text"] {
+   /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*width: 100%;
+*/}
 
+.form-box input[type="password"] {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+   /*width: 100%;*/
+}
+
+.form-box input:focus{
+    outline: 0;
+    background: #eee;
+}
+
+.buttons, input[type="submit"], input[type="button"] {
+    background-color:#ffffff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:15px;
+    padding:3px 14px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.buttons:hover {
+    background-color:#f6f6f6;
+}
+.buttons:active {
+    position:relative;
+    top:1px;
+}
 

@@ -1,0 +1,19 @@
+<div id = 'def_div' class='form-box'>
+<center>
+<h2>Sign in</h2>
+<p><%= flash[:alert] %></p>
+<%= form_for(resource_name, resource, :url => session_path(resource_name)) do |f| %>
+    <p><%= f.text_field :email, :placeholder => 'email'%>
+
+	<%= f.password_field :password,  :placeholder => 'password' %></p>
+
+  <% if devise_mapping.rememberable? -%>
+    <p><%= f.check_box :remember_me %> <%= f.label :remember_me %></p>
+  <% end -%>
+
+  <p><%= f.submit "Sign in", :class => "buttons" %></p>
+<% end %>
+
+<%= render :partial => "devise/shared/links" %>
+</center>
+<div id = 'def_div'>

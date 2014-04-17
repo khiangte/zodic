@@ -10,6 +10,8 @@ gem 'mysql2', '~> 0.2.17'
 # Use unicorn as the web server
 # gem 'unicorn'
 
+gem 'devise', '1.1.rc0'
+
 # Deploy with Capistrano
 # gem 'capistrano'
 

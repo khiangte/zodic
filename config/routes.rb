@@ -1,4 +1,6 @@
 Zodic::Application.routes.draw do
+  devise_for :contributors, :controllers => { :sessions => "contributors/sessions", :registrations => "contributors/registrations" }
+
   get "chibai/index"
 
   #resources :words
@@ -20,4 +22,7 @@ Zodic::Application.routes.draw do
   match '/login' => 'users#login', :as => :login
   match '/authenticate' => 'users#authenticate', :as => :authenticate
   match '/logout' => 'users#logout', :as => :logout
+
+  match '/edit_profile' => 'users#edit', :as => :edit_profile
+
 end

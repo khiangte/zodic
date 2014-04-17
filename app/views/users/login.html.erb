@@ -1,8 +1,4 @@
 <div id = 'def_div'>
-	<div class ="footer" id="footer" align=center>
-		<%= link_to 'Back to Search', root_path %>
-	</div>
-
 	<h2>Login to Zodic</h2>
 	<div id = "alert"><%= flash[:error] %></div>
 	<%= form_tag("authenticate", :method => "post") do %>
