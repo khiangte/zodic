@@ -11,11 +11,12 @@ Zodic::Application.routes.draw do
   match '/autocomplete' => 'chibai#autocomplete', :as => :suggest
   match '/view_entry' => 'words#show', :as => :view_entry
   match '/index' => 'words#index', :as => :index
-  match '/edit' => 'words#edit', :as => :index
+  match '/edit' => 'words#edit', :as => :edit
   match '/save' => 'words#save', :as => :save
   match '/view' => 'words#view', :as => :view
   match '/change' => 'words#change', :as => :change
   match '/delete' => 'words#delete', :as => :delete
+  match '/approve' => 'words#list_unapproved', :as => :approve
 
   match '/signup' => 'users#signup', :as => :signup
   match '/save_user' => 'users#save', :as => :save_user

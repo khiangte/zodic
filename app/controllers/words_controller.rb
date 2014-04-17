@@ -60,4 +60,8 @@ class WordsController < ApplicationController
       format.xml  { head :ok}
     end
   end
+
+  def list_unapproved
+    @unapproved = Word.where("active = ?",false)
+  end
 end

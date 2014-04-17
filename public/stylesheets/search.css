@@ -92,7 +92,7 @@ a {
     color:#6E6E6E;
 }
 .form-box input{
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     background-color: #FAFAFA;
     border-bottom-color: #CCCCCC;
     border-bottom-style: solid;

@@ -19,6 +19,7 @@
 		<span id = "helper" onclick="help()"><a href="#"> Help</a> </span>
 		<% if contributor_signed_in? %>
 			<%= link_to 'Profile', edit_profile_path %>
+			<%= link_to "Approve(" + Word.where("active = ?",false).count.to_s + ")", approve_path if session[:user_profile]["admin"] %>
 			<%= link_to 'Add a new word', contribute_path %>
 			<%= link_to "Logout", destroy_contributor_session_path %>
 		<% else %>
