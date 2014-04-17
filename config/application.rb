@@ -38,5 +38,7 @@ module Zodic
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    config.relative_url_root = ""
   end
 end
