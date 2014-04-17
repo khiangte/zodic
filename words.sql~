@@ -1,0 +1,57 @@
+-- MySQL dump 10.13  Distrib 5.5.35, for debian-linux-gnu (i686)
+--
+-- Host: localhost    Database: zodic_development
+-- ------------------------------------------------------
+-- Server version	5.5.35-0ubuntu0.12.04.2
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `words`
+--
+
+DROP TABLE IF EXISTS `words`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `words` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `word` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `thumal` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pos` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `meaning` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `example` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `active` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2331 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `words`
+--
+
+LOCK TABLES `words` WRITE;
+/*!40000 ALTER TABLE `words` DISABLE KEYS */;
+INSERT INTO `words` VALUES (1,'sang','sáng','adj','tall, high','Kima chu naupang sáng tak a ni! <i>Kima is a [very] tall kid!</i>','masseu',1),(2,'sang','säng','Noun','thousand, thousandth, a thousandth part','Naupang säng thum.<i> Three thousand children.</i>','masseu',1),(4,'ka','ka','Pronoun','I, my','Ka kut a ná. <i>My hand hurts</i><br/>Lehkhathawn ka ziak. <i>I am writing a letter</i>','masseu',1),(5,'ka','ká','Noun','mouth','I ká áng rawh. <i>Open your mouth.</i>','masseu',1),(6,'ang','ang','Postposition','like, similar to, of the same kind','Máwia pen ang ka nei. <i>I have a pen like Máwia\'s. </i>','masseu',1),(7,'ang','áng','Verb','to open one\'s mouth','I ká áng rawh. <i>Open your mouth.</i>','masseu',1),(8,'ang','ang','Aux. Verb','denoting the future tense, will, shall','Ka häw ang. <i>I will go home.</i>','masseu',1),(9,'sam','sam','Noun','hair (of the head)','A sam a buáng. <i>His/Her hair is blonde</i>','masseu',1),(10,'nei','nei','Verb','to own, to have','Bike ka nei. <i> I have/own a bike.<i>','masseu',1),(11,'i','i','Pronoun','you, your (singular), plural <i>in</i>','I ká áng rawh. <i>Open your mouth.</i><br>I kal tâ em? <i>Did you go?</i>','masseu',1),(12,'zam','zäm','adj','nervous, be worried','Kima chu an zai dáwn a, a zäm khawp mai! <i>They are going to operate on Kima, he is very nervous!</i>','masseu',1),(13,'naupang','naupang','Noun','child, children','Naupang säng thum. <i> Three thousand children</i>','masseu',1),(14,'mipa','mipa','Noun','a male human','Mipa ka ni. <i>I am a man/boy</i>','masseu',1),(15,'puitling','puitling','Noun','adult','Puitling hlïr an ni. <i>They are all adults</i>','masseu',1),(16,'hlir','hlïr','Postposition','a group or collection of x belonging to the same type/kind','Puitling hlïr an ni. <i>They are all adults</i>','masseu',1),(17,'an','an','Pronoun','they','Puitling hlïr an ni. <i>They are all adults.</i>','masseu',1),(18,'ni','ni','Verb','to be','Puitling hlïr an ni. <i>They are all adults.</i>','masseu',1),(19,'ni','ní','Noun','the sun<br>day<br>paternal aunt','Ní a chhuak tawh e. <i>The sun has risen.</i><br>Vawiin hi eng ní nge? <i>What day is today?</i><br>Ka ní a lám. <i>My aunt is dancing.</i>','masseu',1),(20,'ta','tâ','Aux. Verb','denoting the past tense','I kal tâ em? <i>Did you go?</i>','masseu',1),(21,'ta','tä','Noun','belonging','Hë pen hi ka tä a ni. <i>This pen is mine/my belonging. </i><br>Hei hi Kima tä a ni. <i>This is Kima\'s belonging.</i> ','masseu',1),(22,'al','al','adj','salty','Tuï al. <i>Salty water</i>','masseu',1),(23,'al','al','Verb','to add salt to make sth salty','Chawhmeh kha al rawh. <i>Add salt to the side dish.</i>','masseu',1),(24,'ak','ak','Verb','to carry sth in a bag/pocket, to carry a bag by putting the strap on one\'s shoulder','Iptë ka ak. <i>I am carrying a bag [putting the strap on my shoulder].</i><br>Lehkhabû ka ak. <i>I am carrying a book [in a bag].</i>','masseu',1),(25,'sangha','sanghâ','Noun','fish','Sanghâ ka kháwi. <i>I pet fish.</i>','masseu',1),(26,'sanghal','sanghal','Noun','wild boar','Thanga\'n sanghal a kâp. <i>Thanga shot a wild boar</i>','masseu',1),(27,'sanghar','sanghar','Noun','wildcat','Sanghal ka man. <i>I caught a wildcat.</i>','masseu',1),(28,'sava','savâ','Noun','bird','Savâ a thlâwk. <i>A bird is flying. </i>','masseu',1),(29,'savawm','savawm','Noun','bear','Savawm chu ramsa hlauhawm tak an ni. <i>Bears are dangerous [wild] animals. </i>','masseu',1),(30,'thlawk','thlâwk','Verb','to fly','Savâ a thlâwk. <i>A bird is flying. </i>','masseu',1),(31,'khawi','kháwi','Verb','to tame, to pet, to keep in cage','Sanghâ ka kháwi. <i>I pet fish.</i>','masseu',1),(32,'sa','sâ','Noun','meat, animal','Sâ kg khat. <i>One kg of meat.</i>','masseu',1),(33,'sa','sâ','Aux. Verb','denoting sth done in the past/already done','Khawiah nge ka lehkhathawn ziah sâ kha a awm? <i>Where is the letter that I have written.</i>','masseu',1),(34,'sa','sá','adj','hot [temperature]','Hë bél hi a sá. <i>This pot is hot.</i>','masseu',1),(2307,'ha','há','Noun','tooth, teeth','Ka há a ná. <i>My tooth aches.</i><br>Kháwl há. <i>Machine teeth(such as those of a saw or other cutting tools).</i>','masseu',1),(2308,'kum','kum','Noun','year','Kum thum. <i>Three years</i>','masseu',1),(2315,'kha','khà','Adj','bitter','Hë tuï hi a khà! <i>This water is bitter!</i>','masseu',1),(2319,'thing','thing','Noun','tree, wood','Thing tam tak. <i>Many trees.</i>','imasseu@gmail.com',1),(2320,'sei','sei','Adj','long','Sam sei <i>long hair</i>','imasseu@gmail.com',1),(2325,'thingkung','thingkûng','Noun','tree','thingkûng buk <i>bushy tree</i>','kim@gmail.com',1),(2327,'dum','dum','Adj','black','pentuï dum <i>black ink</i>','kim@gmail.com',1);
+/*!40000 ALTER TABLE `words` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2014-04-17  9:53:17
