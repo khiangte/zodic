@@ -17,6 +17,9 @@ Zodic::Application.routes.draw do
   match '/change' => 'words#change', :as => :change
   match '/delete' => 'words#delete', :as => :delete
   match '/approve' => 'words#list_unapproved', :as => :approve
+  match '/update' => 'words#update', :as => :update
+  match '/save_review' => 'words#save_review', :as => :save_review
+  match '/review' => 'words#review', :as => :review
 
   match '/signup' => 'users#signup', :as => :signup
   match '/save_user' => 'users#save', :as => :save_user

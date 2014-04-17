@@ -1,5 +1,5 @@
 <div id = 'def_div' class='form-box'>
-<%= form_tag("save", :method => "post") do %>
+<%= form_tag("save_review", :method => "post") do %>
   <%= label_tag(:word, "Word:") %><br/>
   <%= text_field :word, :word, :size => 32, :required => true, :placeholder => 'search word, ex: sang for sáng/säng/sang' %><br/>
   <%= label_tag(:thumal, "Thumal:") %><br/>
@@ -11,9 +11,10 @@
   <%= label_tag(:example, "Example:") %><br/>
   <%= text_area :word, :example, :cols => 32, :rows =>5, :required => true, :placeholder => 'Mizo sentence. <i> English sentence.</i>'%><br/>
   <%= text_field :word, :user, :hidden => true, :value => current_contributor.email %><br/>
-  
-
-  <%= submit_tag("Save") %>
+  <%= label_tag(:active, "Approve: 0 for pending, 1 for approved.") if session[:user_profile]["admin"] %><br/>
+  <%= text_field :word, :active, :hidden => session[:user_profile]["admin"] ? false : true %><br/>
+  <%= hidden_field :word, :id %>
+  <%= submit_tag("Save") %> <%= link_to 'Discard Entry', delete_path(:id => @word.id), :class => "buttons" if @word%>
 <% end %>
 
 <div id = "notice"><%= notice %></div>

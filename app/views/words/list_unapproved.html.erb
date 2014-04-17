@@ -1,13 +1,18 @@
 <div id = 'def_div'>
-	<% if @unapproved == nil %>
-	No words to review!
+	<% if @unapproved.empty? %>
+	<center>
+		<br><br><br>
+		<h2>No words to review!</h2>
+	</center>
 	<% else %>
 		<% @unapproved.each do |word| %>
-			<br><%= link_to word.thumal, change_path(:id => word.id) %>
+			<br><%= link_to word.thumal, review_path(:id => word.id) %>
 		<% end %>
+
+	<% end %>
 	<center>
 	<br><br>
 		<%= link_to "Home", root_path %>
 	</center>
-	<% end %>
+	
 </div>
