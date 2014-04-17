@@ -1,5 +1,6 @@
 class ChibaiController < ApplicationController
   def index
+    puts session
   end
   def search #search def
   	@found = Word.where('word = ? and active = 1', params[:key_word]) || []
