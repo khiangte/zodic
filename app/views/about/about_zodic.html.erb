@@ -1,0 +1,6 @@
+<div id = 'def_div'>
+	<p><h1><i>Zodic</i></h1> is a project to provide a free, community supported online dictionary of the <a href = "http://en.wikipedia.org/wiki/Mizo_language" target = blank> Mizo language</a> where users can quickly look up the words contributed by the native speakers.</p>
+	<p>Currently there are <%= @word_count %> words in our dictionary contributed by <%= @contributor_count %> contributors.</p>
+	<p><%= link_to 'Back to Search', root_path %>.</p>
+<%= link_to "View Entry", view_path(:id => params[:id]) if params[:id] %></p>
+</div>
