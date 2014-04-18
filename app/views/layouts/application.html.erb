@@ -17,15 +17,16 @@
 <div id ='search_div' class='topp'>
 	<div class ="footer" id="footer" align=center border=1>
 		<% if controller_name == 'chibai' %>
-			<span id = "helper" onclick="help()"><a href="#">Quick Help</a> </span>
+			<span id = "helper" onclick="help()"><a href="#">Quick Help</a> | </span>
 		<% end %>
 		<% if contributor_signed_in? %>
-			<%= link_to 'Profile', edit_profile_path %>
+			<%= link_to 'Profile', edit_profile_path %> |
+			<%= link_to "What is Zodic? ", about_path %> |
 			<%= link_to "Approve(" + Word.where("active = ?",false).count.to_s + ")", approve_path if session[:user_profile]["admin"] %>
-			<%= link_to 'Add a new word', contribute_path %>
-			<%= link_to "Logout", destroy_contributor_session_path %>
-		<% else %>
-			<%= link_to "What is Zodic? ", about_path %> 
+			<%= link_to 'Add a new word', contribute_path %> |
+			<%= link_to "Logout", destroy_contributor_session_path %> 
+		<% else %> 
+			<%= link_to "What is Zodic? ", about_path %> |
 			<%= link_to "Login", contributor_session_path %>
 		<% end %>
 	</div>
