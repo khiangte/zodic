@@ -27,7 +27,8 @@ class WordsController < ApplicationController
 
   def save_review
     @word = Word.find(params[:word]["id"])
-    @word.active = params[:word]["active"]
+    @word.update_attributes(params[:word])
+    @word.active = params[:active]
     respond_to do |format|
       if @word.save
         format.html { redirect_to(approve_path, :notice => 'Approved.') }
