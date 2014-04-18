@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
     text-align: right;
     cursor: hand;
     font-size: 12px;
-    color:#6E6E6E;
+    color:#707075;
     font-style: italic;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 
 a {
     text-decoration:none;
-    color:#6E6E6E;
+    color:#707075;
 }
 .form-box input{
     /*text-transform: lowercase;*/
@@ -149,3 +149,6 @@ a {
     top:1px;
 }
 
+ul.bulltes{
+    list-style-type:square;
+}

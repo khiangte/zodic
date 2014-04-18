@@ -3,4 +3,7 @@ class AboutController < ApplicationController
 		@word_count = Word.where("active = ?", true).count
 		@contributor_count = Word.count('user', :distinct => true)
 	end
+
+	def thlukna
+	end 
 end

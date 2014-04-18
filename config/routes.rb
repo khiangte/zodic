@@ -30,5 +30,6 @@ Zodic::Application.routes.draw do
   match '/edit_profile' => 'users#edit', :as => :edit_profile
 
   match '/about' => 'about#about_zodic', :as => :about
+  match '/thlukna' => 'about#thlukna', :as => :thlukna
 
 end

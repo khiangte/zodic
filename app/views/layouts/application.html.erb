@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Zodic</title>
+  <title>Zódic</title>
   <link rel="stylesheet" href="/stylesheets/scaffold.css">
   <link rel="stylesheet" href="/stylesheets/search.css">
   <script src='/javascripts/application.js'></script>
@@ -21,12 +21,12 @@
 		<% end %>
 		<% if contributor_signed_in? %>
 			<%= link_to 'Profile', edit_profile_path %> |
-			<%= link_to "What is Zodic? ", about_path %> |
+			<%= link_to "What is Zódic? ", about_path %> |
 			<%= link_to "Approve(" + Word.where("active = ?",false).count.to_s + ")", approve_path if session[:user_profile]["admin"] %>
 			<%= link_to 'Add a new word', contribute_path %> |
 			<%= link_to "Logout", destroy_contributor_session_path %> 
 		<% else %> 
-			<%= link_to "What is Zodic? ", about_path %> |
+			<%= link_to "What is Zódic? ", about_path %> |
 			<%= link_to "Login", contributor_session_path %>
 		<% end %>
 	</div>
