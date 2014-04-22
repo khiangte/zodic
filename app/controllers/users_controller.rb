@@ -26,6 +26,13 @@ class UsersController < ApplicationController
 		redirect_to user_list_path
 	end
 
+	def delete_user
+		redirect_to root_path if !session[:user_profile].admin
+		user = User.find(params[:id])
+		user.destroy
+		redirect_to user_list_path
+	end
+
 	def make_admin
 		redirect_to root_path if !session[:user_profile].admin
 		user = User.find(params[:id])

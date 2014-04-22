@@ -34,6 +34,7 @@ Zodic::Application.routes.draw do
   match 'deny_admin' => 'users#deny_admin', :as => :deny_admin
   match 'make_admin' => 'users#make_admin', :as => :make_admin
   match 'admin_roles' => 'users#admin_roles', :as => :admin_roles
+  match 'delete_user' => 'users#delete_user', :as => :delete_user
 
   match '/edit_profile' => 'users#edit', :as => :edit_profile
 
