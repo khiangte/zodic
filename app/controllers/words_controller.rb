@@ -1,6 +1,6 @@
 class WordsController < ApplicationController
 
-  before_filter :authenticate_contributor!
+  before_filter :authenticate_contributor!, :except => [:request_def]
 
   def index
     @words = Word.find(:all, :order => 'word')
@@ -12,11 +12,25 @@ class WordsController < ApplicationController
   end
 
   def update
-    @word = Word.find(params[:id])
+    @word = Word.find(params[:word][:id])
 
     respond_to do |format|
       if @word.update_attributes(params[:word])
-        format.html { redirect_to(approve_path, :notice => 'Approved.') }
+        format.html { redirect_to(list_requests_path, :notice => 'Updated.') }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @word.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+
+  def self_update
+    @word = Word.find(params[:word][:id])
+
+    respond_to do |format|
+      if @word.update_attributes(params[:word])
+        format.html { redirect_to(contribute_path, :notice => 'Updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -47,7 +61,7 @@ class WordsController < ApplicationController
   def save
     @thumal = Word.new(params[:word])
     @thumal[:example].gsub! "\r\n","<br>"
-    @thumal.active = false if @thumal.active.nil?
+    @thumal.active = session[:user_profile]["admin"]
     respond_to do |format|
       if @thumal.save
         format.html {redirect_to(contribute_path(:id => @thumal.id), :notice => 'Your contribution has been saved!')}
@@ -66,6 +80,11 @@ class WordsController < ApplicationController
   def change
     @word = Word.find(params[:id])
   end
+
+  def req_contribute
+    @word = Word.find(params[:id])
+  end
+
   def review
     @word = Word.find(params[:id])
   end
@@ -83,5 +102,21 @@ class WordsController < ApplicationController
   def list_unapproved
     redirect_to root_path if !session[:user_profile]["admin"]
     @unapproved = Word.where("active = ?",false)
+  end
+
+  def requests_list
+    @requests_list = Word.where("thumal = ?", "requested")
+  end
+
+  def request_def
+    word = Word.new
+    word[:word] = params[:key_word]
+    word.thumal = "requested"
+    word.meaning = "requested"
+    if word.save
+      render :json => {:success => true}
+    else
+      render :json => {:success => false}
+    end
   end
 end

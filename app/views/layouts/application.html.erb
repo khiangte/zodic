@@ -22,8 +22,11 @@
 		<% if contributor_signed_in? %>
 			<%= link_to 'Profile', edit_profile_path %> |
 			<%= link_to "What is Zódic? ", about_path %> |
-			<%= link_to "Approve(" + Word.where("active = ?",false).count.to_s + ")", approve_path if session[:user_profile]["admin"] %>
-			<%= link_to 'Add a new word', contribute_path %> |
+			<% if session[:user_profile]["admin"] %>
+			<%= link_to "Approve(" + Word.where("active = ?",false).count.to_s + ")", approve_path %> |
+			<% end %>
+			<%= link_to	"Requests(" + Word.where("thumal = ?","requested").count.to_s + ")", list_requests_path %> |
+			<%= link_to 'Contribute', contribute_path %> |
 			<%= link_to "Logout", destroy_contributor_session_path %> 
 		<% else %> 
 			<%= link_to "What is Zódic? ", about_path %> |

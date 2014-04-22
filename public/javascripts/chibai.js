@@ -64,11 +64,31 @@ function searchWord(){
                     defs = defs + "<br/>";
                 }
                 if (defs === "")
-                    defs = "<br/><center>Word not found</center>";
+                    defs = "<br/><center>Word not found, <a href = '#' onclick = 'request()'>request definition</a></center>";
                 jQuery("#def_div").html(defs);
             },
             error: function() {
                 alert('Something went wrong. Please report this problem.');
             }
         });
+}
+
+function request(){
+    jQuery.ajax({
+        data : {
+            key_word : jQuery("#key_word").val()
+        },
+        url: '/request',
+        success : function(result){
+            if(result.success){
+                jQuery("#def_div").html("<center>" + jQuery("#key_word").val() + " has been requested.</center>");        
+            }else{
+                jQuery("#def_div").html("<center>" + jQuery("#key_word").val() + " has already been requested.</center>"); 
+            }
+        },
+        error : function() {
+             alert('Something went wrong. Please report this problem.');
+        }
+    });
+    
 }

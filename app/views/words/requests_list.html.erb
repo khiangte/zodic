@@ -1,0 +1,18 @@
+<div id = 'def_div'>
+	<% if @requests_list.empty? %>
+	<center>
+		<br><br><br>
+		<h2>No new words requested!</h2>
+	</center>
+	<% else %>
+		<% @requests_list.each do |word| %>
+			<br><%= link_to word.thumal, req_contribute_path(:id => word.id) %>
+		<% end %>
+
+	<% end %>
+	<center>
+	<br><br>
+		<%= link_to "Back to Search", root_path %>
+	</center>
+	
+</div>

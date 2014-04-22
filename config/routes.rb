@@ -15,11 +15,15 @@ Zodic::Application.routes.draw do
   match '/save' => 'words#save', :as => :save
   match '/view' => 'words#view', :as => :view
   match '/change' => 'words#change', :as => :change
+  match '/req_change' => 'words#req_contribute', :as => :req_contribute
   match '/delete' => 'words#delete', :as => :delete
   match '/approve' => 'words#list_unapproved', :as => :approve
   match '/update' => 'words#update', :as => :update
+  match '/self_update' => 'words#self_update', :as => :self_update
   match '/save_review' => 'words#save_review', :as => :save_review
   match '/review' => 'words#review', :as => :review
+  match '/request' => 'words#request_def', :as => :request
+  match '/list_requests' => 'words#requests_list', :as => :list_requests
 
   match '/signup' => 'users#signup', :as => :signup
   match '/save_user' => 'users#save', :as => :save_user
