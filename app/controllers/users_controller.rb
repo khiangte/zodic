@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
-	def signup
-	end
+	before_filter :authenticate_contributor!
 
 	def save
 	if @user = User.find_by_email(params[:user]["email"])
@@ -15,31 +14,32 @@ class UsersController < ApplicationController
 		end
 	end
 
-	def login
-
-	end
-
-	def authenticate
-		@user = User.find_by_user_name(params[:user]["user_name"])
-		if @user[:password] == params[:user]["password"]
-			session[:user] = @user
-			redirect_to root_path
-		else
-			flash[:error] = "Wrong username or password"
-			redirect_to login_path
-		end
-	rescue
-		flash[:error] = "Wrong username or password"
-		redirect_to login_path
-
-	end
-
-	def logout
-		session[:user] = nil
-		redirect_to root_path
-	end
-
 	def edit
 		@user = User.find_by_email(current_contributor.email)
+	end
+
+	def deny_admin
+		redirect_to root_path if !session[:user_profile].admin
+		user = User.find(params[:id])
+		user.admin = false
+		user.save
+		redirect_to user_list_path
+	end
+
+	def make_admin
+		redirect_to root_path if !session[:user_profile].admin
+		user = User.find(params[:id])
+		user.admin = true
+		user.save
+		redirect_to user_list_path
+	end
+
+	def user_list
+		redirect_to root_path if !session[:user_profile].admin
+		@user_list = User.where("email != ?","admin@zodic.in")
+	end
+
+	def admin_roles
+		redirect_to edit_profile_path if !session[:user_profile].admin
 	end
 end

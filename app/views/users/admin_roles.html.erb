@@ -1,0 +1,5 @@
+<div id = 'def_div'>
+<h2>Welcome <%= session[:user_profile].user_name || "Please set your alias in your profile" %></h2>
+<p><%= link_to 'Profile', edit_profile_path %></p>
+<p><%= link_to 'Manage Users', user_list_path %></p>
+</div>

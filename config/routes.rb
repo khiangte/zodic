@@ -25,11 +25,15 @@ Zodic::Application.routes.draw do
   match '/request' => 'words#request_def', :as => :request
   match '/list_requests' => 'words#requests_list', :as => :list_requests
 
-  match '/signup' => 'users#signup', :as => :signup
+  # match '/signup' => 'users#signup', :as => :signup
   match '/save_user' => 'users#save', :as => :save_user
-  match '/login' => 'users#login', :as => :login
-  match '/authenticate' => 'users#authenticate', :as => :authenticate
-  match '/logout' => 'users#logout', :as => :logout
+  # match '/login' => 'users#login', :as => :login
+  # match '/authenticate' => 'users#authenticate', :as => :authenticate
+  # match '/logout' => 'users#logout', :as => :logout
+  match '/user_list' => 'users#user_list', :as => :user_list
+  match 'deny_admin' => 'users#deny_admin', :as => :deny_admin
+  match 'make_admin' => 'users#make_admin', :as => :make_admin
+  match 'admin_roles' => 'users#admin_roles', :as => :admin_roles
 
   match '/edit_profile' => 'users#edit', :as => :edit_profile
 
