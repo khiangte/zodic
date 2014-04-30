@@ -1,6 +1,6 @@
 class WordsController < ApplicationController
 
-  before_filter :authenticate_contributor!, :except => [:request_def]
+  before_filter :authenticate_contributor!, :except => [:request_def, :get_contributor]
 
   def index
     @words = Word.find(:all, :order => 'word')
