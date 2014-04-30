@@ -90,11 +90,12 @@ class WordsController < ApplicationController
   end
 
   def delete
+    back_path = request.referer
     if @thumal = Word.find(params[:id])
       @thumal.destroy
     end
     respond_to do |format|
-      format.html { redirect_to approve_path}
+      format.html { redirect_to back_path}
       format.xml  { head :ok}
     end
   end

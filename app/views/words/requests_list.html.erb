@@ -6,7 +6,8 @@
 	</center>
 	<% else %>
 		<% @requests_list.each do |word| %>
-			<br><%= link_to word.thumal, req_contribute_path(:id => word.id) %>
+			<br><%= link_to word.thumal, req_contribute_path(:id => word.id) %><i>[<%= word.word %>]</i>
+			<%= link_to 'Discard', delete_path(:id => word.id) if session[:user_profile][:admin]%>
 		<% end %>
 
 	<% end %>
