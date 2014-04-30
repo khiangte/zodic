@@ -3,7 +3,7 @@
 <h2>Sign in</h2>
 <p><%= flash[:alert] %></p>
 <%= form_for(resource_name, resource, :url => session_path(resource_name)) do |f| %>
-    <p><%= f.text_field :email, :placeholder => 'email'%>
+    <p><%= f.text_field :email, :placeholder => 'email'%><br/>
 
 	<%= f.password_field :password,  :placeholder => 'password' %></p>
 
