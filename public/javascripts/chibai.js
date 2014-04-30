@@ -61,7 +61,11 @@ function searchWord(){
                     defs = defs + "<br/><h3>" + def.found[i].word.thumal + "</h3> <i> " + def.found[i].word.pos + "</i>";
                     defs = defs + "<p>" + def.found[i].word.meaning;
                     defs = defs + "<p>Ex: " + def.found[i].word.example;
-                    defs = defs + "<br/>";
+                    defs = defs + "<br/><div id = " + def.found[i].word.id + " onclick='contributor(" + def.found[i].word.id +")'>contributor</div><br/>";
+                }
+                for(var i = 0; i < def.found.size(); i++)
+                {
+                    contributor(def.found[i].word.id);
                 }
                 if (defs === "")
                     defs = "<br/><center>Word not found, <a href = '#' onclick = 'request()'>request definition</a></center>";
@@ -91,4 +95,24 @@ function request(){
         }
     });
     
+}
+
+function contributor(id){
+    jQuery.ajax({
+        data : {
+            id : id
+        },
+        url: '/get_contributor',
+        success : function(result){
+            if(result.success){
+                jQuery("#" + id).html(result["message"]);        
+            }else{
+                jQuery("#" + id).html("---"); 
+            }
+        },
+        error : function() {
+             jQuery("#" + id).html("---"); 
+        }
+    });
+
 }

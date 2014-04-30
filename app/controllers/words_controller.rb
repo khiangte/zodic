@@ -120,4 +120,11 @@ class WordsController < ApplicationController
       render :json => {:success => false}
     end
   end
+
+  def get_contributor
+    contributor = User.find_by_email(Word.find(params[:id])[:user])
+    contributions = Word.where("user = ? and active = 1", contributor.nil? ? User.first : contributor[:email]).count
+    render :json => {:success => true, :message => "<i><b>" + contributor.user_name + "</b>, " + contributions.to_s + " contributions.</i>"}
+  end
+
 end
