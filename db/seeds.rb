@@ -11,6 +11,6 @@ File.open("jf.def", "r").each_line do |line|
 	word = Mizoenglish.new
 	temp = line.split(" : ")
 	word.word = temp[0]
-	word.definition = temp[1].strip
+	word.definition = temp[1]
 	word.save
 end
