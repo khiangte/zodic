@@ -1,0 +1,25 @@
+<div id ='search_div' class='topp'>
+	<h2>Chibai
+		<% if contributor_signed_in? %>
+		<%=(session[:user_profile]).try(:user_name)%>
+		<% end %>
+		!</h2>
+	<div id='search-box' class='form-box'>
+		<p><input type = 'text' size =23 id = 'key_word' autofocus onkeyup="searchWord();" onkeydown="key_down(event)" autocomplete="off" placeholder = "Sâp ṭawng thumal chhu rawh le"></p>
+	  	<p><input type = 'button' value = 'Zawng' onclick = 'searchWord()' id = 'search' class = "buttons"></p>
+	</div>
+</div>
+
+<div id = "def_div">
+	<center>
+		<i>JF Dictionary, English - Mizo(Lushai); 14835 English words listed!</i>
+	</center>
+</div>
+
+<script src='/javascripts/mizoenglish.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+<script>jQuery.noConflict();</script>

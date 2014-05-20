@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140417140551) do
+ActiveRecord::Schema.define(:version => 20140520092705) do
 
   create_table "contributors", :force => true do |t|
     t.string   "email",                               :default => "", :null => false
@@ -30,6 +30,11 @@ ActiveRecord::Schema.define(:version => 20140417140551) do
 
   add_index "contributors", ["email"], :name => "index_contributors_on_email", :unique => true
   add_index "contributors", ["reset_password_token"], :name => "index_contributors_on_reset_password_token", :unique => true
+
+  create_table "mizoenglishes", :force => true do |t|
+    t.string "word"
+    t.string "definition"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "full_name"

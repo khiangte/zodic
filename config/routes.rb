@@ -42,6 +42,10 @@ Zodic::Application.routes.draw do
   match '/about' => 'about#about_zodic', :as => :about
   match '/thlukna' => 'about#thlukna', :as => :thlukna
 
+  match '/mizo_english' => 'mizoenglish#mizo_english', :as => :mizo_english
+  match '/search_mizo_english' => 'mizoenglish#search', :as => :search_mizo_english
+  match '/autocomplete_mizo_english' => 'mizoenglish#autocomplete', :as => :autocomplete_mizo_english
+
   match '*path' => 'application#all_routes'
 
 end
