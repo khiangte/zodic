@@ -51,6 +51,12 @@
   text-align: center;
 }
 
+#logo_div {
+  width: 500px;
+  margin:0 auto;
+  float: left;
+}
+
 div.topp {
     margin-top:1cm;
 }
@@ -77,6 +83,7 @@ h1, h2, h3, h4 {
     font-size: 12px;
     color:#707075;
     font-style: italic;
+    float: right
 }
 
 a:hover {

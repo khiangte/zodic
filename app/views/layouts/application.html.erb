@@ -14,13 +14,20 @@
   <%= csrf_meta_tag %>
 </head>
 <body background = "/images/bg.png">
+	
 <div id ='search_div' class='topp'>
+	<div id = 'logo_div' align=left>
+		<h1><i><%= link_to "Zódic", root_path %></i></h1>
+		<br/><br/>
+	</div>
 	<div class ="footer" id="footer" align=center border=1>
 		<% if controller_name == 'chibai' %>
 			<span id = "helper" onclick="help()"><a href="#">Quick Help</a> | </span>
 		<% end %>
 		<% if contributor_signed_in? %>
-			<%= link_to "What is Zódic? ", about_path %> |
+			<% if controller_name != 'about' %>
+				<%= link_to "What is Zódic? ", about_path %> |
+			<% end %>
 			<% if session[:user_profile]["admin"] %>
 			<%= link_to 'Admin', admin_roles_path %> |
 			<%= link_to "Approve(" + Word.where("active = ?",false).count.to_s + ")", approve_path %> |
@@ -31,10 +38,13 @@
 			<%= link_to 'Contribute', contribute_path %> |
 			<%= link_to "Logout", destroy_contributor_session_path %> 
 		<% else %> 
-			<%= link_to "What is Zódic? ", about_path %> |
+			<% if controller_name != 'about' %>
+				<%= link_to "What is Zódic? ", about_path %> |
+			<% end %>
 			<%= link_to "Login", contributor_session_path %>
 		<% end %>
 	</div>
+	<br/><br/>
 </div>
 <%= yield %>
 

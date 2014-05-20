@@ -42,4 +42,6 @@ Zodic::Application.routes.draw do
   match '/about' => 'about#about_zodic', :as => :about
   match '/thlukna' => 'about#thlukna', :as => :thlukna
 
+  match '*path' => 'application#all_routes'
+
 end

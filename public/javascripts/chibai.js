@@ -61,7 +61,7 @@ function searchWord(){
                     defs = defs + "<br/><h3>" + def.found[i].word.thumal + "</h3> <i> " + def.found[i].word.pos + "</i>";
                     defs = defs + "<p>" + def.found[i].word.meaning;
                     defs = defs + "<p>Ex: " + def.found[i].word.example;
-                    defs = defs + "<br/><div id = " + def.found[i].word.id + " onclick='contributor(" + def.found[i].word.id +")'>contributor</div><br/>";
+                    defs = defs + "<br/><div id = " + def.found[i].word.id + ">contributor</div><br/>";
                 }
                 for(var i = 0; i < def.found.size(); i++)
                 {

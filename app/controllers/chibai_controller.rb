@@ -1,6 +1,5 @@
 class ChibaiController < ApplicationController
   def index
-    puts session
   end
   def search #search def
   	@found = Word.where('word = ? and active = 1', params[:key_word]) || []
@@ -12,5 +11,9 @@ class ChibaiController < ApplicationController
   	x=[]
   	@suggest.each { |f| x << f[:word] }
   	render :json => {:sugg => x.uniq}
+  end
+
+  def all_routes
+    redirect_to edit_profile_path
   end
 end
