@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+Mizoenglish.delete_all
 
 File.open("jf.def", "r").each_line do |line| 
 	word = Mizoenglish.new
