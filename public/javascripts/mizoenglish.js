@@ -28,7 +28,7 @@ function searchWord(){
                 for(var i = 0; i < def.found.size(); i++)
                 {
                     defs = defs + "<br/><h3>" + def.found[i].mizoenglish.word + "</h3> <i> ";
-                    defs = defs + "<p>" + def.found[i].mizoenglish.definition;
+                    defs = defs + "<p>" + def.found[i].mizoenglish.definition + "</i>";
                 }
                 if (defs === "")
                     defs = "<br/><center><b><i>\""+jQuery("#key_word").val() + "\"</i></b> hi JF Dictionary-ah a awm lo tlat!</center>";
