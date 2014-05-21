@@ -1,3 +1,18 @@
+jQuery(document).ready(function(){
+    jQuery("a#export_mizoenglish").live('click', function() {
+        jQuery("#status").html(" Exporting. Please wait for the download link...")
+        jQuery.ajax({
+            url : '/export_mizoenglish',
+            success : function(def) {
+                jQuery("#status").html("Exported");
+            },
+            error: function() {
+                jQuery("#status").html("Something went wrong!");
+            }            
+        });
+    });
+});
+
 function key_down(event){
     if (event.keyCode == 13){
         document.getElementById('search').click();

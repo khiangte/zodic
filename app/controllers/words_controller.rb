@@ -127,4 +127,27 @@ class WordsController < ApplicationController
     render :json => {:success => true, :message => "<i><b>" + contributor.user_name + "</b>, " + contributions.to_s + " contributions.</i>"}
   end
 
+  #export words to text file
+  def export_mizo_english
+    redirect_to root_path if !session[:user_profile]["admin"]
+    file = File.new("public/mizoenglish.txt","w")
+    words = Word.all
+    words.each do |w|
+      file.puts(w.word + " :: " + w.thumal + " :: " + w.pos.to_s + " :: " + w.meaning.to_s + " :: " + w.example.to_s + " :: " + w.user.to_s)
+    end
+    file.close
+
+    render :json => {:success => true}
+  end
+
+  #export eng-mizo to  text file
+  def export_english_mizo
+    redirect_to root_path if !session[:user_profile]["admin"]
+    file = File.new("public/englishmizo.txt","w")
+    words = Mizoenglish.all
+    words.each do |w|
+      file.puts(w.word + " :: " + w.definition.to_s)
+    end
+    file.close
+  end
 end

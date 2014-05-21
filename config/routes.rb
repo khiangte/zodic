@@ -46,6 +46,9 @@ Zodic::Application.routes.draw do
   match '/search_mizo_english' => 'mizoenglish#search', :as => :search_mizo_english
   match '/autocomplete_mizo_english' => 'mizoenglish#autocomplete', :as => :autocomplete_mizo_english
 
+  match '/export_mizoenglish' => 'words#export_mizo_english', :as => :export_mizoenglish
+  match '/export_englishmizo' => 'words#export_english_mizo', :as => :export_englishmizo
+
   match '*path' => 'application#all_routes'
 
 end
