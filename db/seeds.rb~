@@ -7,7 +7,7 @@
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 Mizoenglish.delete_all
 
-File.open("def.wd", "r").each_line do |line| 
+File.open("jf.def", "r").each_line do |line| 
 	word = Mizoenglish.new
 	temp = line.split(" : ")
 	word.word = temp[0]

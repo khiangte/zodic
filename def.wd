@@ -2893,12 +2893,17 @@ cohere : (kawhiar), v.i. bei, bet, danglam lo, coherence, n. beina, behna, burna
 cohort : (kawhawrt), n. ralkhat ho khat, sipai rual khat.
 coil : (kawil), v.t. vet, zem,. v.i. inzem, inkual, n. thil inzem or inkual, electric tha kal nana thirhrui zem.
 coin : (kawin), n. pawisa tlang (thir, dar, etc.), pawisa, v.t. pawisaa chantir, pawisaa chher, chher chawp, tawnghmang chher chawp, phuahchawp.
-coincide : (kawinsaid), v.i. a rual chiaha awm, inmil, inrem, inzawm, inzawl, inang. conincidence, n. hun khata awm rual, thil inkar hlat tak si, a hun tak emaw, indawt chiah emawa inmil taka lo awm palh. (Tum khat chu khaw hrang khaw lia kan chhungte pwm darh kum tam inhmu khawm tawh lo chu inhrilh lawkna awm miah si lovin in puiah kan han inhmu khawm thut mai a; chu chu coincidence mak tak a ni). coindicent, coindedentally, adjs.
+coincide : (kawinsaid), v.i. a rual chiaha awm, inmil, inrem, inzawm, inzawl, inang. 
+conincidence : n. hun khata awm rual, thil inkar hlat tak si, a hun tak emaw, indawt chiah emawa inmil taka lo awm palh. (Tum khat chu khaw hrang khaw lia kan chhungte pwm darh kum tam inhmu khawm tawh lo chu inhrilh lawkna awm miah si lovin in puiah kan han inhmu khawm thut mai a; chu chu coincidence mak tak a ni). coindicent, coindedentally, adjs.
 coir : (kawir), n. coconut rah hrui hram, thangtung kawr zai.
 coition : (kawishn), n. hmeichhia leh mipa inpawlna.
 coke (kawk). n. kharkhip chhunga lungalhthei hal atanga meituah siam.
 col : (kawl), n. tlang kara kawn rek. colander, collender (kalandar), n. chhihri, bawm mawng kaw chik hrip hrep.
-cold : (kawld), adj. awt, phur lo, nelawm lo, ngaihsakna nei lo, inkiltawih, tawng duh lo, n. vawhna, tangthawm, hritlang. cold-blooded, adj. taksa leh thisen lumna nei lo (sangha, chungu, etc.), khawngaihna tlachham, nunrawng, nunchhia, catch cold, hritlang (kai), cold feet, beisei bo, hlauhna, cold storage, vur bawma ei tur dah that. cold war, indo lo chauh chauhva ram leh ram inerna. to give the cold shoulder, ngaihsak lo, na taka chhang. in cold blood, thinur thut vang pawh ni lova lo tum lawk ve reng vanga tih. leave one cold, hmin lo, hneh lo. throw cold water on, sawi bawrhban sak. sawi hnawm sak.
+cold : (kawld), adj. awt, phur lo, nelawm lo, ngaihsakna nei lo, inkiltawih, tawng duh lo, n. vawhna, tangthawm, hritlang. catch cold, hritlang (kai), to give the cold shoulder, ngaihsak lo, na taka chhang. in cold blood, thinur thut vang pawh ni lova lo tum lawk ve reng vanga tih. leave one cold, hmin lo, hneh lo. throw cold water on, sawi bawrhban sak. sawi hnawm sak.
+cold-blooded : adj. taksa leh thisen lumna nei lo (sangha, chungu, etc.), khawngaihna tlachham, nunrawng, nunchhia
+cold feet : beisei bo, hlauhna.
+cold storage : vur bawma ei tur dah that. 
+cold war : indo lo chauh chauhva ram leh ram inerna. 
 cole : (kawl), n. zikhlum chi reng reng (parhlawm, knol-khol, etc. tiamin.)
 colic : (kawlik), n. pum na.
 collaborate : (kawlaborait),. v.i. thawh rualpui, inpuibawm.
@@ -2955,7 +2960,8 @@ commerce : (kawmars), n. sumdawnna, sumdawn awnna, n. zawmna. commercial, adj.
 commingie : (kawminggl), v.t., v.i., fin, zinga chetla, inpawlh.
 commiserate : (kawmizareit), v.t. tuarpui.
 commissary : (kawmisari), n. thuneihna dawngtu, police hotu, sipai pawla rowsawt semtu officer.
-commission : (kawmishn), n. mawhphurhna, inpekna, thil (sual) tih, thuneihna, inpekna, mi ai awhna, thil intihsiak tura thupek, (lawng, khawl, motor, etc.) hna thawk thei mai tura inpeih. (The ship was in commission - Lawng lian chu chhawr theihin a awm), mi sumdawn saka ei ve zat. v.t. commissionner, n. sawrkar aiawha ram bial khat awptu.
+commission : (kawmishn), n. mawhphurhna, inpekna, thil (sual) tih, thuneihna, inpekna, mi ai awhna, thil intihsiak tura thupek, (lawng, khawl, motor, etc.) hna thawk thei mai tura inpeih. (The ship was in commission - Lawng lian chu chhawr theihin a awm), mi sumdawn saka ei ve zat. v.t. 
+commissionner : n. sawrkar aiawha ram bial khat awptu.
 commit : (kawmit), v.t. hlan, kawltir, thil tisual, tiamkam, inhnamhnawih, commitment, n. lung in tantirna thupek, tanna, thil ti tura intiamna. committal, n. commitment, committee, n. mi tam zawk aiawha thu rel tura inkhawm.
 commix : (kawmiks), v.t. chawhpawlh.
 commodious : (kawmowdias), adj. remchang, zau tawk, thawl, commodity, n. zawrhsum.
@@ -2964,7 +2970,10 @@ common : (kawmawn), adj. vantlang thil, intawm thil, langlawn, dan naran or tlan
 commonwealth : (kawmawnuelth), n. vntlang hmathatna, ram hrang hrang inzawm khawmna or inkungkaihna. commonweal an ti bawk.
 commotion : (kawmowshn), n. chet sawkna, buai philina.
 commune : (kawmiun), n. tangho, v.i. thlarau lama inpawl, inkawm, communal, adj. hnam or chi leh kuang thil.
-communicate : (kawmiunikeit), v.t. pe, hlan, lailang, hrilh, v.i. inkalpawh, inbia, communicant, n. sakrament chhang dawngtu, communication, n. inkalpawhna, inbiak pawhna, inkhawmna, inbiak pawhna, inkhawmna, inbiak tawnna. communicative, adj. mi biak pawh hreh lo, thil puang hreh lo.
+communicate : (kawmiunikeit), v.t. pe, hlan, lailang, hrilh, v.i. inkalpawh, inbia.
+communicant : n. sakrament chhang dawngtu.
+communication : n. inkalpawhna, inbiak pawhna, inkhawmna, inbiak pawhna, inkhawmna, inbiak tawnna.
+communicative : adj. mi biak pawh hreh lo, thil puang hreh lo.
 communique : (kawmiunike), n. sawrkar thupuan.
 communion : (kawmuniawn), n. inpawlna, thlarauva inpawlna, inzawmna. Holy Comunion, Lalpa Zanriah (eina or rawngbawlna).
 communism : (kawmiunizm), n. ram rorelnaa mi mal sum-leh-pai bik awm lova vantlang sum intawm a tha ber ang tih rinna. communist, n. chutiang ring mi.
@@ -2973,7 +2982,10 @@ commute : (kawmiut), v.t. thlak, thlakthleng, a nep zawka hremna thlak, electric
 compact : (kawmpakt), adj. sakhat, muk, tawi nghet, v.t. nem muk, n. inremna, intiamna, thuthlunna.
 companion : (kawmpaniawn), n. thian, kawppui, companionable, adj. kawppui chi, kawp nuam. companionship, n.
 company : (kampani), n. mihring rual kal khawm, sumdawnna kawnga tangrual, kawppui, sipai pawl khat (130 vel).
-compare : (kawmpeir), v.t. tehkhin, khaikhin, comparable (kawmparabl), adj. khaikhin theih, tehkhintlak, comparative, adj. khaikhinna thil, tehkhin hnua a inan dan or inan loh dan or inthlauh dan. comparison, n. tehkhinna, khaikhinna, beyond compare, tehkhin phak rual loh.
+compare : (kawmpeir), v.t. tehkhin, khaikhin, beyond compare, tehkhin phak rual loh.
+comparable : (kawmparabl), adj. khaikhin theih, tehkhintlak.
+comparative : adj. khaikhinna thil, tehkhin hnua a inan dan or inan loh dan or inthlauh dan.
+comparison : n. tehkhinna, khaikhinna.
 copartment : n. pindan, pindan bung hrang, rel pindan.
 compass : (kampas), n. thil bial, huang chhung, aw san leh hniam theih ber inkar, chhim leh hmar kawk. compasses, n. bial rinna hmanrua.
 compassion : (kawmpashn), n. khawngaihna, lainatna. compassionate (kawmpashnet), adj. khawngaih thei.
@@ -3142,7 +3154,8 @@ contagion : (kawntejan), n. inkhawih or intawh vanga natna hri inkaihhnawihna, c
 contain : (kawntein), v.t. dawng, pai, huap, khuahkhirh, chin tuk sak. container, n. nawm.
 contaminate : (kawntamineit), v.t. tibawlhhlawh, natna kaihhnawih. contamination, n. contemn (kawntem), v.t. hmusit.
 contemplate : (kawntempleit), v.t., v.i. ngaihtuah, chik taka bel or ngaihtuah, tum rilru. contemplation, n.
-contemporaneous : (kawntempawrenias), adj. hun khata awm or cheng, a ruala awm. contemporary, adj., n. hun khata chengho, a ruala awm. (Vanapa anf Pawngvina are contemporaneous or contemporaries).
+contemporaneous : (kawntempawrenias), adj. hun khata awm or cheng, a ruala awm.
+contemporary : adj., n. hun khata chengho, a ruala awm. (Vanapa anf Pawngvina are contemporaneous or contemporaries).
 contempt : (kawntempt), n. inhmuhsitna, hmuhsitna, contemtible, adj. hmusitawm, contemtuous, adj. mi tham lo, mi hmusit.
 contend : (kawntend), v.i. tum, bei, khing, hnial, v.t inhnial naa tanfunga hmang, hnial chhana nei.
 content : (kawntent), n. bawm chhunga awm, dawn theih zat, a chhunga thu awm.
@@ -3151,7 +3164,15 @@ contest : (kawntest), v.t. hmuh or neih tuma bei, chuh, khing. n. inchuhna, inel
 context : (kawntekst), n. thu pawimawh lai karchehtu, thu chang awmzia tikimtu, a tlangpuia lan dan.
 contiguous : (kawntigiuas), adj. insi, inzawm, hnaivai. contiguity, contiguousness, nn. continent
 continent : (kawntinent), n. Europe khawmualpui, khawmualpui (British thliarkar tiam lovin). adj. tisa nawmsipna lama insum thei, hurna lam mausam. continence, continency, nn. nawmsipna hawisanna. continental, adj. Europe khawmualpui thil or zia or nunphung.
-contingent : (kawntingent), adj., n. thil dang rinchhan, nghahchhan nei, thil lo awm palh thei, sipai ho khat, contingency, n. rinhlelhawm, thil lo thleng palh. continue (kawntiniu), v.t.,v.i. ti zel, zawm zek, chhunzawm, ngai awh reng, awmna ngaia awm reng, bei zui. continual, adj. chatlak lo. continuance, n. chatlak lo. continuance, n. chatlak lohna, ngai awh rengna. continuation, n. a ngaia kal rengna, chhunzawmna, belhchhahna, continuous, adj. inzawm, chhum lo chat lo. continuity, (kawntiniuti), n. inzawm zelna.
+contingent : (kawntingent), adj., n. thil dang rinchhan, nghahchhan nei, thil lo awm palh thei, sipai ho khat.
+contingency : n. rinhlelhawm, thil lo thleng palh. 
+continue : (kawntiniu), v.t.,v.i. ti zel, zawm zek, chhunzawm, ngai awh reng, awmna ngaia awm reng, bei zui.
+continual : adj. chatlak lo.
+continuance : n. chatlak lo. 
+continuance : n. chatlak lohna, ngai awh rengna.
+continuation : n. a ngaia kal rengna, chhunzawmna, belhchhahna.
+continuous : adj. inzawm, chhum lo chat lo.
+continuity : (kawntiniuti), n. inzawm zelna.
 contort : (kawnfawrt), v.t. na taka her of herh, vial ngawlh ngawlh, contertion, n. hmel chuar khawlo, thil herh kawm khawlo, thil chang kawi.
 contour : (kawntur), n. hmelhmang, a tlang zawi zawia a lan dan.
 contra : (kawntra), adj., prep. kalh zawngin.
@@ -3267,8 +3288,14 @@ corvette : (kawrvet), n. hmelma tuihnuai lawng laka lawng rual vengtu indo lawng
 corvus : (kawrvas), n. choak chi reng reng (thlanthla tiamin).
 cos : (kaws), n. antam hnah kir sei chi.
 cosmetic : (kawsmetik), adj.,n. tihmeltha thei, pangti cheina hmanrua (lipstick, powder, hriak rimtui, etc.).
-cosmos : (kawsmows), n. tisa lei leh van fel taka inher vel. cosmic, adj. lei leh van thil, van sang lam thil. cosmogenist, n. lei leh van lo awm dan chhuitu. cosmogony, n. lei leh van lo awm dan chhuina, arsi pian chhuah dan chhuina. cosmology, n. lei leh van kalhmang chhuina.
-cosmopolis : (kawsmawpawlis), n. ram hrang hrang khawpui intawm, khawvel huap thei khawpa khawpui huhang ngah leh ropui, cosmopolitan, adj. khawvel huap khawpa rilru zau nei, mahni ram bial atan maia rilru nei zim lo, khawvel huang. cosmic rays, vansang atanga X-Ray or radio zung lo kal.
+cosmos : (kawsmows), n. tisa lei leh van fel taka inher vel.
+cosmic : adj. lei leh van thil, van sang lam thil.
+cosmogenist : n. lei leh van lo awm dan chhuitu.
+cosmogony : n. lei leh van lo awm dan chhuina, arsi pian chhuah dan chhuina.
+cosmology : n. lei leh van kalhmang chhuina.
+cosmopolis : (kawsmawpawlis), n. ram hrang hrang khawpui intawm, khawvel huap thei khawpa khawpui huhang ngah leh ropui.
+cosmopolitan : adj. khawvel huap khawpa rilru zau nei, mahni ram bial atan maia rilru nei zim lo, khawvel huang.
+cosmic rays : vansang atanga X-Ray or radio zung lo kal.
 cossack : (kawsak), n. Russia ram chhim chhaka awm hnam pakhat, chutiang hnam sipai sakawr chungchuang pawl chu.
 cost : (kawst), v.t., v.i.,n. man, man nei. costly, adj. to.
 costume : (kawstium), n. incheina, silhfen, thuam.
@@ -3277,7 +3304,10 @@ cot : (kawt), n. khum, khum te tak te, in te.
 cote : (kawt), n. ran in, cot.
 coterie : (kawtari), n. ho khat or intibik, pawl khat interek hrang.
 cottage : (kawtij), n. inte tak te, thingtlanga chenna buk, nipui chawlhna buk.
-cotton : (kawtn), n. la, la kung, la par laa siam puan. cotton-boll, n. la kuhmum, cotton-gin, n. herawt, la herna khawl, cotton-wool, n. la par, la her sa or sai sa.
+cotton : (kawtn), n. la, la kung, la par laa siam puan.
+cotton-boll : n. la kuhmum.
+cotton-gin : n. herawt, la herna khawl.
+cotton-wool : n. la par, la her sa or sai sa.
 cotyledon : (kawtilidawn), n. thlai leh thil dang chi tiaka a hnahpui chawitu rawn khi chhuak phak (a kep kan tih mai hi).
 couch : (kauchh), v.t.,v.i.,n. mut, tihniam, zalh, awp, kun, uithut, thua chantir.
 caugar : (kugar), n. sanghar chi khat.
@@ -3289,7 +3319,17 @@ councel : (kaunsl), n., v.t. inrawnna, thu ngaihtuahna, inzilhna, zilhtu, zilh, 
 count : (kaunt), n. Europe rama lal upa, county, n. district bial.
 count : (kaunt), v.t. chhiar, pawimawha ngai. n. chhiarna.
 countenance : (kauntenans), n. hmai, hmel, hmela zia, mi en dan, remtihpuina, pawmpuina. v.t. phal sak, remti.
-counter : (kauntar), adv. a lehlamah, ani lo lamah, a kalh zawngin, n. a letling. counteract, v.t. kalh, chawk zam, nuai bo. counter attack, adj. nawr let, do let. counterbalance, n. inbuk rualna. countercharge, n. puh letna, counter-clockwise. adv. sana ban her dan kalh zawnga vir or inher. counter-foil, n. pawisa petu kawl that atana pawisa dawnna lehkha pawh thlak theih chia an siam. (Ennawm enna tiket lei hian a chhumbung an pawh thlaka a leitu an peka hi a counter-foil a ni). counter-march, v.i. a kal thelh zawnga sipai lam lai inher kir (Inchawhpawlh nuai anga khuangpui leh bazapuho an her kir ang hi ani). counterpart, n. anpui, milpui. countersign, n. mi hming ziak bula a nemnghehpuina hming ziak. counter (kauntar), v.t. kalh, do, cho let. n. tukverha thil pek chhuahna dawhkan.
+counter : (kauntar), adv. a lehlamah, ani lo lamah, a kalh zawngin, n. a letling.
+counteract : v.t. kalh, chawk zam, nuai bo.
+counter attack : adj. nawr let, do let.
+counterbalance : n. inbuk rualna.
+countercharge : n. puh letna. 
+counter-clockwise : adv. sana ban her dan kalh zawnga vir or inher.
+counter-foil : n. pawisa petu kawl that atana pawisa dawnna lehkha pawh thlak theih chia an siam. (Ennawm enna tiket lei hian a chhumbung an pawh thlaka a leitu an peka hi a counter-foil a ni).
+counter-march : v.i. a kal thelh zawnga sipai lam lai inher kir (Inchawhpawlh nuai anga khuangpui leh bazapuho an her kir ang hi ani).
+counterpart : n. anpui, milpui.
+countersign : n. mi hming ziak bula a nemnghehpuina hming ziak.
+counter : (kauntar), v.t. kalh, do, cho let. n. tukverha thil pek chhuahna dawhkan.
 counterfeit : (kauntarfit), v.t., n., adj. a lem, pawisa lem sawrkar phal lohva a lem siam.
 countermand : (kauntarmand), v.t. a kalh zawnga thu pe, thu pek ko kir or sut. n. thupek sutna.
 counterpane : (kauntarpein), n. khum khuhna.
@@ -3356,7 +3396,15 @@ creak : (krik), v.i., n. ri rawt, innawt ri rawt.
 cream : (krimk), n. bawnghnute dak or khar, thil chung dak, a tha ber lai, cream-coloured. adj. cream rawng ang, var pap. cream-faced, adj. dawldang.
 crease : (kris), n. puan nawh thleh, nawh ki.
 create : (krieit), v.t. siam, engmah lo atanga awmtir, duang, ruahman, creation, n. thil siam lei leh van, thil duan, creative, adj. siam theih, thil tithei. creator, n. siamtu. creature, (krichiar), n. thil siam nung, thil nung (mihring tiamin).
-credence : (kridens), n. rinna, rin awmna, credential (kridanshl), n. rinawmna petu, rinawm kaitirtu. (Mi rama palai tirhte hian palai dik tak an ni tih nemnghehna lehkha (credential) an keng thin. credible, adj. rin tlak, awih theih. credit, n. rinna, ngaihsanna, hming thatna, inrinna avanga a baa leitirna, pawisa hisapa sum lut lam ziah luhna, v.t. ring, rinna avanga leitir or hawhtir, mawh phurtua puh, creditable, adj. rin tlak, fakawm, creditor, leibatna. credo. (kridow, Latin tawng chuan kredow), n. Apostol-te thurin, credulity, n. thil awih samna, credulous, adj. awih awlsam, i-he lova awih thei, chhut lova ring thei mai.
+credence : (kridens), n. rinna, rin awmna.
+credential : (kridanshl), n. rinawmna petu, rinawm kaitirtu. (Mi rama palai tirhte hian palai dik tak an ni tih nemnghehna lehkha (credential) an keng thin.
+credible : adj. rin tlak, awih theih.
+credit : n. rinna, ngaihsanna, hming thatna, inrinna avanga a baa leitirna, pawisa hisapa sum lut lam ziah luhna, v.t. ring, rinna avanga leitir or hawhtir, mawh phurtua puh, 
+creditable : adj. rin tlak, fakawm.
+creditor : leibatna.
+credo : (kridow, Latin tawng chuan kredow), n. Apostol-te thurin.
+credulity : n. thil awih samna.
+credulous : adj. awih awlsam, i-he lova awih thei, chhut lova ring thei mai.
 creed : (krid), n. thurin, sakhaw lama thurin, rinna nghahchhanna.
 creek : (krik), n. khawmual chhunga tuipui peng tengsawl lut.
 creep : (krip), v.i. vak, bawkvak, zawi tea kal, zawi tea fan, lei or thinga zam, hnuaihnung leh hmusitawm taka awm, pangti mur sung sung, creeper, n. hrui zam chi.
@@ -4299,7 +4347,18 @@ dove : (dav), n. thuro, vathu, mimsirikut, vahui, parva, hmeichhe koh duatna. do
 dowager : (dauajar), n. hmeichhai hausa, pasal sun tawh hmeichhai. mahni pasal te ro khawmtu, hmeithai zahawm.
 dower : (dauar), n. ro khawm, sum-leh-pai chhawm, v.t. ro khawmtir, thuam chhawmtir.
 down : (daun), n. sava hmul nem tak.
-down : (daun), adv. chhuk lamah, hnuai lamah, chhim lamah (khawthlang hi hnuai lama awm anga kan ngai angin chhim lam hi an ngai thin ani). hmasang atanga tun, zel, khumbetin, ziakin. v.t. thlah, chawlhsan. down-and-out, adj., n. kawnkaw, downcast, adj. ngui, lungngai. downfallen, adj. tlaran, downhearted, adj. ngui, lungngai, downpour, n. ruah bawhawk, downright, adv. chiah, let tawp, thukhuh lo. downstairs, adj. chhawng hnuai lam, downstream, adj. lui mawng lam. down tools, v.i. hnathawkho nuar. downtrodden, adj. hnehchhiah, rahbeh, downunder, mahni zawn khawvel lehlam. up and down, vei sek.
+down : (daun), adv. chhuk lamah, hnuai lamah, chhim lamah (khawthlang hi hnuai lama awm anga kan ngai angin chhim lam hi an ngai thin ani). hmasang atanga tun, zel, khumbetin, ziakin. v.t. thlah, chawlhsan. up and down, vei sek.
+down-and-out : adj., n. kawnkaw.
+downcast : adj. ngui, lungngai.
+downfallen : adj. tlaran
+downhearted : adj. ngui, lungngai.
+downpour : n. ruah bawhawk/
+downright : adv. chiah, let tawp, thukhuh lo.
+downstairs : adj. chhawng hnuai lam.
+downstream : adj. lui mawng lam.
+down tools : v.i. hnathawkho nuar.
+downtrodden : adj. hnehchhiah, rahbeh.
+downunder : mahni zawn khawvel lehlam.
 Downing Street : n. British Prime Miniter bangla awmna kawtthler, (chuvang chuan) Bristish sawrkar.
 dawry : (dauri), n. hmeichhe thuam leh ro chhawm.
 dowse : (dauz), v. dawi tiang nena tui hna awmna zawng chhuak. dowser, n. tui hna inphumna zawng chhcuak thiam.
@@ -4311,7 +4370,9 @@ drabble : (drabl), v.t. chulh, hnawih.
 drachma : (drakma), n. hmasang Grik pawisa, tun lai Grik pawisa, fran khat.
 draff : n. tife
 draft : (draft), n. thil hnuk, tam zawk atanga thlan chhuah, sipai lak, sipaia lak luih, pawisa laktirna lehkha, thil ruahman lawkna, thil duan chhinna (draught an ti bawk), chawkna, purna. v.t. a lem ziak lawk, duang chhin, a riruang siam hmasa, hnuk. draftsman see draught.
-drag : v.t. hnuk , pawt, kai, limawng hrut, v.i. leia hnuk, zawi zawia kal hnuk tel, n. thil hnuh, thanmawhbawk, hnufumna. drag-net, n. tuitla ilo zawnna lenkhang. draggle, v.t.,v.i., leia hrut huh or hnuh bawlhlawh.
+drag : v.t. hnuk , pawt, kai, limawng hrut, v.i. leia hnuk, zawi zawia kal hnuk tel, n. thil hnuh, thanmawhbawk, hnufumna.
+drag-net : n. tuitla ilo zawnna lenkhang.
+draggle : v.t.,v.i., leia hrut huh or hnuh bawlhlawh.
 dragon : (dragan), n. hmasang thawnthua ramsa hlauhawm tak pakhat (awle thla nei meia thow chhuak chi hi a ang deuh ber). dragonfly, n. daidep, dai.
 dragoon : (dragun), n. hman lai sakawr chungchuang sipai pawl.
 drain : (drein), v.t. zuk, hip, thli, thlithlawr, tihul, in fai, tlak zo. v.i. zawi zawia luang chhuak, thlithlawr, put chhuak, tuihawk luankawr, sengso. tlak ral.
@@ -4326,13 +4387,19 @@ drastic : (drastik), adj. khauh tak, nasa tak, vung tak. drat, v.t. het!
 draught : (draft), n. hnuhna, pawh, thil hnuh, inna, thawkkhata in zat, a lem riruang (draft an hmang zing zawk), lena khuh zat, mipa thlan chhuah zat, sa nena inkawia infiamna (plural draughts an hmang thin), thli tleh. draughtanimal, n. ran puakphur, ran tawlailir hnuk chi, draughtboard, n. draught khelna phek. draughtman, n. draught khelna sa.
 draughtsman : n. draughts khelna sa, lemziak thiam, thu phuahtu.
 Dravidian : adj., n. hmasanga India chhim lama hnam chengte thil, chung hnam chu, India chhim biala tawng chi hrang hrang khai khawmna.
-draw : v.t. hnuk, pawt, hip, la chhuak, phawrh, phawi, chhui chhuak, lemziak, ziak chhuak. n. phawrha awm, phawi lai, pawh, thumvawrna pawh, inkhela inhneh chiah. drawback, n. bahlahna. drawbridge (drowdrij), n. lei pawh kan theih, lei pawh thleh theih. drawer, n. hnuktu, la chhuaktu, bawm pawhdawh, drawers, n. kekawrhnuai. drawing, n. lemziak, drawing-pin, n. lehkha kilh behna perek tawi tak leh ber hlai tak.
+draw : v.t. hnuk, pawt, hip, la chhuak, phawrh, phawi, chhui chhuak, lemziak, ziak chhuak. n. phawrha awm, phawi lai, pawh, thumvawrna pawh, inkhela inhneh chiah.
+drawback : n. bahlahna. 
+drawbridge : (drowbrij), n. lei pawh kan theih, lei pawh thleh theih.
+drawer : n. hnuktu, la chhuaktu, bawm pawhdawh.
+drawers : n. kekawrhnuai.
+drawing : n. lemziak.
+drawing-pin : n. lehkha kilh behna perek tawi tak leh ber hlai tak.
 drawn : adj. draw-well, n. tuichhunchhuah, draw near, hnaihchilh.
 drawing-room : n. chaw ei khama inkawm khawmna pindan.
 drawl : v.i.,v.t.,n. aw ban taka tawng.
 dray : (drei), n. bungraw hnuhna tawlailir.
 dread : (dred), n. hlauhna, rapna, tihna, v.t. hlau, tih, rap, dreadful, dreaded, adjs. rapthlak.
-dreadnought , dreadnaught : n.. hlauh nei lo, indo lawng lian chi. penny dreadful, thawnthu bu ngaihnawm leh man tlawm tak.
+dreadnought : dreadnaught, n.. hlauh nei lo, indo lawng lian chi. penny dreadful, thawnthu bu ngaihnawm leh man tlawm tak.
 dream : (drim), n. mumang, suangtuahna, zeldin thil, duhthusam ram or thil, v.i.,v.t. mumang mang. dreamworld, n. zeldin ram, dreamy. adj.
 dreary : (driari), adj. ngui, nguai, hlimawm lo.
 dredge : (drej), n. lui mawng laih thukna khawl, dredger, n. li mawng laitu, li mawng laihna khawl or laitu lawng.
@@ -4340,7 +4407,8 @@ dregs : (dregz), n. a mawng nawi, a ekchhia.
 drench : v.t. tihuh hnawp, chiah huh.
 dress : v.t. thuam, chie, enkawl, din, bawlhlo phul, hau hrep. v.i. ngil taka intlar.
 dressing : n. silhfen, hliam cheibawlna, ei tura hmuihmer pawlh, invuakna, dressing-gown, n. awmhmun rawtna kawrchung fual leh thawl tak. dressing down, inhauhna.
-drib : v.i. far kauh kauh, thil thlawr, n. tui far kauh kauh, far khat. dribble (dribl), v.i. te tak te tea far, dir, chilthli thlauh. v.t. fartir, tlem tlema sem, tawi te tea football chhuih kual, football khalh.
+drib : v.i. far kauh kauh, thil thlawr, n. tui far kauh kauh, far khat.
+dribble : (dribl), v.i. te tak te tea far, dir, chilthli thlauh. v.t. fartir, tlem tlema sem, tawi te tea football chhuih kual, football khalh.
 drift : n.. thil nawi khalh khawm. hnawl, thil len khawm, kalna lampang, thli len, tui len, thlekna lam.
 drill : v.t. verh, sipai insawizawitir, sipai lamtir, n. thil verhna, insawizawina, a tlar pawnga thlai chinna.
 drink : (dringk), v.t., v.i. in, hip lut, zu in, drank, drunk, (drangk), pa.t. in tawh, zu rui.
@@ -4412,7 +4480,15 @@ durbar : (darbar), n. mipui ngaih dan ngaihthlakna hmun pui, rorelna hmun, mipui
 duress : duresse (diures), n. inkhuahkhirhna, tantirna, dan lo anga mi thil tihluihtirna.
 durst : (darst), hman lai leh sakhaw tawnghmanga dare past tense.
 dusk : (dask), adj. hang, thim, dum, n. thimhlim, vartian.
-dust : (dast), n. vaivut (leng vel), vaivut pow, thil dip, lei, thlan. dust-bin, n. bawlhhlawh bawm. dust-bowl, n. thlaler ram ro. dust-cart, n. inchhung bawlhhlawh khawn khawm paihna tawlailri. duster, n. vaivut vow faitu, vaivut hruk faina hmanrua. dust-hole, n. bawlhhlawh bawm. dust-shot, n. musep te ber chi. dust-jacket, n. lehkhabu kawm tuamna. dusty, adj. vaivut kai, pow, throw dust in one's eye, biakbum.
+dust : (dast), n. vaivut (leng vel), vaivut pow, thil dip, lei, thlan.
+dust-bin : n. bawlhhlawh bawm.
+dust-bowl : n. thlaler ram ro.
+dust-cart : n. inchhung bawlhhlawh khawn khawm paihna tawlailri.
+duster : n. vaivut vow faitu, vaivut hruk faina hmanrua.
+dust-hole : n. bawlhhlawh bawm.
+dust-shot : n. musep te ber chi.
+dust-jacket : n. lehkhabu kawm tuamna.
+dusty : adj. vaivut kai, pow, throw dust in one's eye, biakbum.
 Dutch : (dachh), adj. Holland ram mipui leh an tawng. Dutch auction, a letling zawnga lilam, a sang lam atanga tan thlak a a chhang ngam hmasa ber hnena pek. Dutch Comfort, Duch-ho inhnemna, 'Vanduai vannei kan ni e', 'A aiin a zual lova kan nihlawh zawk e'. double Dutch, tawng hriat loh.
 duty : (diuti), n. tihtur, hmabar, rawngbawlna zahderna, bungraw chhiah, duteous (diutias), dutiful, adjs. thahnem ngai, rinawm, mi zahder thiam.
 dwarf : (duawrf), n. mi te, thil fek tak, arsi te tak te muk leh rit tak si, v.t. tite chem chem, dip e chem chem.
@@ -4431,18 +4507,37 @@ dysphagia : (disfejia), n. thil lem harsa tihna.
 each : (ichh), adj. pakhat zel, a mal mal, tin.
 eager : (igar), adj. nghakhlel, phur, chak.
 eagle : (igl), n. mupui, muvanlai, eagle-eyed, eagle-sighted, adjs. meng fir, thil awmze hmutlang thiam, eaglet, n. mupui no.
-ear : (iar), n. beng, buh vui, vaimim kawm. bengkhawnn. earache (iareik), n. bengkherh. eardrum, n. bengling. earphone (iarfawn), n. biakhlatna (telephone) beng vuah. earshot, hriat phak. ear-trumpet, n. bengchhette ngaihthlak na dawt. earwax, n. beng ek. give ear, lend and ear, bengkhawn, ngaithla.
+ear : (iar), n. beng, buh vui, vaimim kawm. bengkhawnn. give ear, lend and ear, bengkhawn, ngaithla.
+earache : (iareik), n. bengkherh.
+eardrum : n. bengling.
+earphone : (iarfawn), n. biakhlatna (telephone) beng vuah.
+earshot : hriat phak.
+ear-trumpet : n. bengchhette ngaihthlak na dawt.
+earwax : n. beng ek.
 earmark : n. chhinchhiahna, hual, v.t. chhinchhiah, hual.
 earl : (arl), n. British lal upa chi khat, earldom (arldam), n. earl ram awp chhung or lalna.
 early : (arli), adj. adv. hma, zing. early bird, tho hma thei.
 earn : (arn), v.t. hlawh, thawk chhuak, phu. earnings, hlawh, thawh chhuah, pawisa khawl.
 earnest : (arnist), adj. thahnemngai, ti taktak, tum ngei. n. zakhamna.
-earth : (arth), n. lei pum, lei chunglang, khawmual, khawvel, mihring taksa, electric khawl leh tek dannaa leia electric leh tek puh ralna tur hmawr, v.t. leia phum, leia chhilh, hreuh, earthen, adj., leisa siam, earthenware, n. hluma siam bungbel, earthly, adj. lei thil. earthly-minded, n. tisa thil ngaina. earthwork, n. lei bang, earthy, adj. lei thil, tawng tlahawlh.
+earth : (arth), n. lei pum, lei chunglang, khawmual, khawvel, mihring taksa, electric khawl leh tek dannaa leia electric leh tek puh ralna tur hmawr, v.t. leia phum, leia chhilh, hreuh.
+earthen : adj., leisa siam.
+earthenware : n. hluma siam bungbel.
+earthly : adj. lei thil. 
+earthly-minded : n. tisa thil ngaina.
+earthwork : n. lei bang,
+earthy : adj. lei thil, tawng tlahawlh.
 earthquake : (arthkhueik), n. lirnghing.
 earthworm : n. changpat.
 ease : (iz), n. tlawngawlna, hahdamna, awmnawmna, lungkham neih lohna. v.t. chhawk dam, dik tea kal. easy, adj. dam awlsam, tawh awlsam, khirh lo, tawt lo. easy-chair, n. thutmutna. thutthleng (chair), easy-going, adj. ngaihsa. ill at easy, ngaihtha lo. take it easy, zawi muangin.
 easel : (izl), n. milem ziak lai tarna or nghenchhan.
-east : (ist), n. khawchhak. Eastend, n. LOndon leh khawpui dang khawchhak lam veng. eastern easter, adjs. khawchhak la,. esterner, n. khawchhak bial mi. easterly, adv. adj. khawchhak lamah, khawchhak lam, easternmost, adj. khawchhak kil. eastward, adj. khawchhak lamah. the East, Europe chhak lam ram. Eastern-Church. Grik Kohhran.
+east : (ist), n. khawchhak. the East, Europe chhak lam ram
+Eastend : n. LOndon leh khawpui dang khawchhak lam veng.
+eastern easter : adjs. khawchhak la,. 
+esterner : n. khawchhak bial mi.
+easterly : adv. adj. khawchhak lamah, khawchhak lam,
+easternmost : adj. khawchhak kil.
+eastward : adj. khawchhak lamah. 
+Eastern-Church  : Grik Kohhran.
 Easter : (istar), n. Isua Thawhleh Ni. Easter-egg, n. Isua Thawhleh Nia lawmmana artui tak or artui lem rawnga dum an inpek thin.
 eat : (it), v.t., v.i., ei, eatable, adj. ei theih.
 eaves : (ivs), n. dithlifarfem. eavesdrop, n. dithli dar, dithlifar farna lei.
@@ -4457,7 +4552,11 @@ echo : (ekhaw), n., v.i., v.t., aukhawk, sawhkhawk, thangkhawk.
 eclat : (ekhla), n. a langsara ropui tak, challanna, fakna.
 eclipse : (ikhlips), n. awk lem, hliahkhuhna, thimna,. v.t. hliahkhuh, tithim. ecliptic, n. ni hela kan lei a inherna zawn van, (chuvangin, lei atanga vana a lan dan maiah chuan) lei hela vana ni inherna bial chhung khi, thlasik vanglai leh nipui vanglaia ni herna (kalkawng) inkar van bial chhung zawng khi.
 ecology : (ikhawlowji), n. mihring leh thil nung reng reng leilung tlakna rama zira kan pianto dan zirna. (ram luma mirhing thatchhia, ram vawta hnim hnah tla kawlh, etc.).
-economy : (ikhawnawmi), n. pawisa lam leh chhungkaw thila khawsak rel dan, inrenchem taka pawisa hman, inrenchem thiamna, pawisa khawlna. economic (ikhawnawmik, ekhawnawmik), adj. economic thil, inrenchem lam thil, chhawrbawk dan kawng. economics, n. pawisa deh vel dan. mipui khawsak relbawl dan, thil siam leh thehdarh leh hman ral dan zirna. economise (ikhawnawmais), v.t. renchem, economist, n. mipui khawsak relbawl dan zir mi.
+economy : (ikhawnawmi), n. pawisa lam leh chhungkaw thila khawsak rel dan, inrenchem taka pawisa hman, inrenchem thiamna, pawisa khawlna.
+economic : (ikhawnawmik, ekhawnawmik), adj. economic thil, inrenchem lam thil, chhawrbawk dan kawng.
+economics : n. pawisa deh vel dan. mipui khawsak relbawl dan, thil siam leh thehdarh leh hman ral dan zirna.
+economise : (ikhawnawmais), v.t. renchem.
+economist : n. mipui khawsak relbawl dan zir mi.
 ecstay : (ekstasi), n. hlim ruihna, nasa taka phurna. ecstatic, adj. nasa taka hlim.
 ecto-: (ektow), thu reng reng ecto tiha tan a nih chuan 'a pawn lam' tih a kawk ang. {Thlikthliekbawm, kelbuh, saphihrik, vangvat, etc. te hi ectoparasite (pawn lam atanga mi nunna chhimtu) an ni a. Rulhut. T.B. hrik, etc. te hi chu kawchhung lam eitu (intraparasite?) an ni ve thung}
 ecumenic : oecumenic,-al (ikhiumenik, ikhiumenikal, ekhiumenikal), adjs. Kristian Kohhran zawng zawng huap.
@@ -4468,18 +4567,26 @@ edentate : (identeit), adj. ha nei lo, ha hmai bal.
 edge : (ej), n. hmawr, tlang, sir, kam, kotlang, thil hriam lai, hriamhrei hma, rilru hriam, thil hre thei, thinramna. v.t. hriam lai neihtir, tlang neihtir. hual, v.i. zawi zawia kal, thle peng. set one's teeth on edge, ha tiziau.
 edible : (edibl), adj. ei thei, ei chi.
 edict : (edikt), n. thu neitu thupek.
-edify : (edifai), v.t. siam, din, rinna leh thianghlimna pe, rilru tihhmasawn, edufication, n. inzirtirna, hriatna leh thatna lama hmasawnna. edifying, adj. titha thei, bengvarthlak.
+edify : (edifai), v.t. siam, din, rinna leh thianghlimna pe, rilru tihhmasawn.
+edufication : n. inzirtirna, hriatna leh thatna lama hmasawnna.
+edifying : adj. titha thei, bengvarthlak.
 edifice : (edifis), n. in, in lian.
 edit : v.t. thu chhuah tura buatsaih, thu chhuah tur endik, thu chhuah atana lawr khawm,
 edition : n. a chi hrang deuhva chanchinbu or lehkhabu chhuah, hun khat or hun hrang hranga a chhunga thu awm chawk danglam lova lehkhabu chhuah zat, editor, n. chanchinbu or lehkhabu buatsaihtu or enkawltu, edutorial, adj. editor thil, editor thukhwochang.
-educate : (ediukeit), v.t. zirtir, education, n. inzirtirn, educationalist, educatinist, nn. inzirtir na tihhmasawntu, inzirtir dan thiam mi, educative, adj. bengvarthlak, i zirtir thei.
+educate : (ediukeit), v.t. zirtir.
+education : n. inzirtirna.
+educationalist : educatinist, nn. inzirtir na tihhmasawntu, inzirtir dan thiam mi.
+educative : adj. bengvarthlak, i zirtir thei.
 educe : (idius), v.t. phawrh chhak, lailang, hip chhuak.
 eel : (il), n. ngha rul.
 e'n : (in), even kaihtawi.
 e'r (eir) ever kaihtawi.
 eerie : eery (iri), adj. rapthlak.
 efface : (efeis, ifeis), v.t. nuai reh, tichimit.
-effect : (ifekt), n. a rah, a hnu leh, a hnathawh, a dik tak, v.t. siam, thawk, awmtir, effects, n. bungrua, effective, adj. tangkai, thawhtir thei, sawt, efectual, adj. awt, in efect a awm ze dik tak chu. take effect, thawk tan.
+effect : (ifekt), n. a rah, a hnu leh, a hnathawh, a dik tak, v.t. siam, thawk, awmtir.
+effects : n. bungrua.
+effective : adj. tangkai, thawhtir thei, sawt.
+efectual : adj. awt, in efect a awm ze dik tak chu. take effect, thawk tan.
 effeminate : (ifemineit), adj. hmeichhia ang mai, nu zuii, nuthai, no. ngaihno bei, v.t,v.i. hmechhia anga awm or siam.
 effervesce : (efarves), v.i. so, phul, phuan, effer vescence, n. effecvescent, adj. phul, phuan.
 effete : (efit), aj. chau chhia, lak tlak tawh loh, tangkai tawh lo, ngawl.
