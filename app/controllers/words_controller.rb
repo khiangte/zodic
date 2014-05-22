@@ -136,7 +136,6 @@ class WordsController < ApplicationController
       file.puts(w.word + " :: " + w.thumal + " :: " + w.pos.to_s + " :: " + w.meaning.to_s + " :: " + w.example.to_s + " :: " + w.user.to_s)
     end
     file.close
-
     render :json => {:success => true}
   end
 
@@ -149,5 +148,6 @@ class WordsController < ApplicationController
       file.puts(w.word + " :: " + w.definition.to_s)
     end
     file.close
+    render :json => {:success => true}
   end
 end

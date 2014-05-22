@@ -3,7 +3,20 @@ jQuery(document).ready(function(){
         jQuery("#status").html(" Exporting. Please wait for the download link...")
         jQuery.ajax({
             url : '/export_mizoenglish',
-            success : function(def) {
+            success : function() {
+                jQuery("#status").html("Exported");
+            },
+            error: function() {
+                jQuery("#status").html("Something went wrong!");
+            }            
+        });
+    });
+
+    jQuery("a#export_englishmizo").live('click', function() {
+        jQuery("#status").html(" Exporting. Please wait for the download link...")
+        jQuery.ajax({
+            url : '/export_englishmizo',
+            success : function() {
                 jQuery("#status").html("Exported");
             },
             error: function() {
