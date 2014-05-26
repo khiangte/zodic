@@ -1,12 +1,12 @@
 <div id = 'def_div'>
 	<p><h1><i>Zódic</i></h1> is a project to provide a free, community supported online dictionary of the <a href = "http://en.wikipedia.org/wiki/Mizo_language" target = blank> Mizo language</a> where users can quickly look up the words contributed by the native speakers.</p> <p>If the word you are looking for isn't available, you can request for it by just a single click.</p>
 	<p>Currently there are <%= @word_count %> words in our dictionary contributed by <%= @contributor_count %> contributors.</p>
-
+	<p>Alternatively, the English-Mizo JF Dictionary has also been included. Simply click on the Mizo-English on the top left of the page to switch.</p> 
 	<br><h3>For Contributors</h3><br>
 	I thawh ve duh a nih chuan a hnuäia tàrlan ang hian i rawn thawh ve dáwn nia.
 	<ul class = "bullets">
 		<li>A hmasa berin Zó ṭawng dik taka i chhut theihna'n [Windows hmangte ta'n] Mizo keyboard layout hi install ve phawt ang che. <a href = "http://cl.ly/V4ej/download/zokeys.zip"> Download</a>
-		<li>A thlûkna hi kan ṭawngah hian standard tak awm lò mahsé a tlángláwn ber a hriat hman a ni a, <%= link_to 'hetah', thlukna_path %> hian Zódic a kan hman thlûknate chu i hriatthiam tùrin entírna nèn a dah a ni. Zódic hmangtûte tùr bera ngaih hi hnamdang an nih avàngin thlûkna nèna dah thlap hi kan ngái pawimawh êm êm a ni.
+		<li>A thlûkna hi kan ṭawngah hian standard tak awm lò mahsé a tlángláwn ber a hriat hman a ni a, <%= link_to 'hetah', thlukna_path %> hian Zódic a kan hman thlûknate chu i hriatthiam tùrin entírna nèn a dah a ni. Zódic hmangtû tùr bera ngaih hi hnamdang an nih avàngin thlûkna nèna dah thlap hi kan ngái pawimawh êm êm a ni.
 		<li>I la in-register vè lò a nih chuan <%= link_to 'hetah', new_contributor_registration_path %> hian in register la, chuan i thawh nghâl mawp mawp dáwn nia.
 		<li>Chhan tam tak awm thei avàngin in thumal rawn thawhte hi chhuah nghâl a ni lova, endik phawt ṭhìn a ni.
 	</ul>
