@@ -1,10 +1,10 @@
 jQuery(document).ready(function(){
-    jQuery("a#export_mizoenglish").live('click', function() {
+    jQuery("#export_mizoenglish").live('click', function() {
         jQuery("#status").html(" Exporting. Please wait for the download link...")
         jQuery.ajax({
-            url : '/export_mizoenglish',
-            success : function() {
-                jQuery("#status").html("Exported");
+            url : '/export_mizo_english',
+            success : function(data) {
+                jQuery("#status").html("Exported! <a href='mizoenglish.txt' target='_blank' download> <i>Download</i></a>");
             },
             error: function() {
                 jQuery("#status").html("Something went wrong!");
@@ -12,12 +12,12 @@ jQuery(document).ready(function(){
         });
     });
 
-    jQuery("a#export_englishmizo").live('click', function() {
+    jQuery("#export_englishmizo").live('click', function() {
         jQuery("#status").html(" Exporting. Please wait for the download link...")
         jQuery.ajax({
-            url : '/export_englishmizo',
+            url : '/export_english_mizo',
             success : function() {
-                jQuery("#status").html("Exported");
+                jQuery("#status").html("Exported <a href='englishmizo.txt' download> <i>Download</i></a>");
             },
             error: function() {
                 jQuery("#status").html("Something went wrong!");

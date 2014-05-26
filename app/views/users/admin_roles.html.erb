@@ -2,8 +2,9 @@
 <h2>Welcome <%= session[:user_profile].user_name || "Please set your alias in your profile" %></h2>
 <p><%= link_to 'Profile', edit_profile_path %></p>
 <p><%= link_to 'Manage Users', user_list_path %></p>
-<p><%= link_to 'Export Mizo-English as text', export_mizoenglish_path, :id => "export_mizoenglish" %></p>
-<p><%= link_to 'Export English-Mizo as text', export_englishmizo_path, :id => "export_englishmizo" %></p>
+<p><h3>Export options:</h3></p>
+<p><span id = "export_mizoenglish" class = "buttons">Export Mizo-English as text</span></p>
+<p><span id = "export_englishmizo" class = "buttons">Export English-Mizo as text</span></p>
 <p><div id = "status"</div></p>
 </div>
 <script src='/javascripts/chibai.js'></script>
