@@ -1,1 +1,3 @@
 A part time self project for Mizo to English dictionary webapp. Database is to be contributed by interested users.
+
+http://zodic.herokuapp.com
